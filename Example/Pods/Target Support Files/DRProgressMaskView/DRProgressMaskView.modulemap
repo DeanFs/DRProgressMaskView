@@ -1,0 +1,6 @@
+framework module DRProgressMaskView {
+  umbrella header "DRProgressMaskView-umbrella.h"
+
+  export *
+  module * { export * }
+}

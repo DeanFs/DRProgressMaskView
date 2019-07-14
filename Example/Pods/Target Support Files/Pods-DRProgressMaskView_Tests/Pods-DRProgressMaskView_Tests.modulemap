@@ -1,0 +1,6 @@
+framework module Pods_DRProgressMaskView_Tests {
+  umbrella header "Pods-DRProgressMaskView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

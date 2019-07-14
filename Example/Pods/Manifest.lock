@@ -1,0 +1,16 @@
+PODS:
+  - DRProgressMaskView (0.1.0)
+
+DEPENDENCIES:
+  - DRProgressMaskView (from `../`)
+
+EXTERNAL SOURCES:
+  DRProgressMaskView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DRProgressMaskView: add2017eec573357f2fd9caa380b98adb4f707e9
+
+PODFILE CHECKSUM: 50371b390b2b224eae577ae163c0e67af2ae0ff1
+
+COCOAPODS: 1.7.0.rc.1
