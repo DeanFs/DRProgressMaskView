@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DRProgressMaskView_Example' do
+  pod 'DRProgressMaskView', :path => '../'
+
+  target 'DRProgressMaskView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
