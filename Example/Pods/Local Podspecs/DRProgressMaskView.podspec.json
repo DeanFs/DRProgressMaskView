@@ -1,9 +1,9 @@
 {
   "name": "DRProgressMaskView",
   "version": "0.1.0",
-  "summary": "A short description of DRProgressMaskView.",
+  "summary": "一个个性化进度条显示控件",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Dean_F/DRProgressMaskView",
+  "homepage": "https://github.com/DeanFs/DRProgressMaskView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "Dean_F": "stone.feng1990@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Dean_F/DRProgressMaskView.git",
+    "git": "https://github.com/DeanFs/DRProgressMaskView.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DRProgressMaskView/Classes/**/*"
+  "source_files": "DRProgressMaskView/Classes/**/*",
+  "dependencies": {
+    "DRCategories": [
+
+    ]
+  }
 }

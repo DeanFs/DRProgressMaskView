@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +20,94 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hT-Bt-Ufo" customClass="DRProgressMaskView">
+                                <rect key="frame" x="36" y="120" width="303" height="10"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="DgH-rq-WOP"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackTintColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="progressTintColor">
+                                        <color key="value" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxNumberOfMask">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="z7Y-ly-V3K">
+                                <rect key="frame" x="36" y="160" width="94" height="29"/>
+                                <connections>
+                                    <action selector="steperChange:" destination="whP-gf-Uak" eventType="valueChanged" id="tPy-F0-LFI"/>
+                                </connections>
+                            </stepper>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="JrB-cu-dit">
+                                <rect key="frame" x="245" y="160" width="94" height="29"/>
+                                <connections>
+                                    <action selector="steperChange:" destination="whP-gf-Uak" eventType="valueChanged" id="Vcq-rS-2mb"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="完成：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Es-R9-sv8">
+                                <rect key="frame" x="36" y="209" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总数：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bJ-91-0yy">
+                                <rect key="frame" x="245" y="209" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="4Ow-dk-fPf">
+                                <rect key="frame" x="36" y="270" width="94" height="29"/>
+                                <connections>
+                                    <action selector="steperChange:" destination="whP-gf-Uak" eventType="valueChanged" id="hJQ-4E-Q4w"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="阈值：10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8S-yY-ROn">
+                                <rect key="frame" x="36" y="319" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="k8S-yY-ROn" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="09m-Sh-nih"/>
+                            <constraint firstItem="4Ow-dk-fPf" firstAttribute="top" secondItem="1Es-R9-sv8" secondAttribute="bottom" constant="40" id="3wl-By-gub"/>
+                            <constraint firstItem="1Es-R9-sv8" firstAttribute="top" secondItem="z7Y-ly-V3K" secondAttribute="bottom" constant="20" id="42L-k1-I6g"/>
+                            <constraint firstItem="8bJ-91-0yy" firstAttribute="top" secondItem="JrB-cu-dit" secondAttribute="bottom" constant="20" id="AfJ-MT-gZr"/>
+                            <constraint firstItem="1Es-R9-sv8" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="CR3-aJ-N7v"/>
+                            <constraint firstItem="k8S-yY-ROn" firstAttribute="top" secondItem="4Ow-dk-fPf" secondAttribute="bottom" constant="20" id="Cri-ck-pdx"/>
+                            <constraint firstItem="0hT-Bt-Ufo" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="OHD-aX-lbJ"/>
+                            <constraint firstItem="0hT-Bt-Ufo" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="RSP-XJ-aDI"/>
+                            <constraint firstItem="z7Y-ly-V3K" firstAttribute="top" secondItem="0hT-Bt-Ufo" secondAttribute="bottom" constant="30" id="UDb-Pj-6DX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0hT-Bt-Ufo" secondAttribute="trailing" constant="20" id="hn4-LR-L6e"/>
+                            <constraint firstItem="JrB-cu-dit" firstAttribute="top" secondItem="0hT-Bt-Ufo" secondAttribute="bottom" constant="30" id="kHl-L8-jAH"/>
+                            <constraint firstItem="8bJ-91-0yy" firstAttribute="leading" secondItem="JrB-cu-dit" secondAttribute="leading" id="khK-4o-fe2"/>
+                            <constraint firstItem="z7Y-ly-V3K" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="usJ-Gh-80h"/>
+                            <constraint firstItem="4Ow-dk-fPf" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="wVn-vB-64u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JrB-cu-dit" secondAttribute="trailing" constant="20" id="x7b-76-K94"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="checkLabel" destination="1Es-R9-sv8" id="KFB-Md-sD5"/>
+                        <outlet property="checkSteper" destination="z7Y-ly-V3K" id="NrT-EE-3qD"/>
+                        <outlet property="maxLabel" destination="k8S-yY-ROn" id="VMx-pf-obA"/>
+                        <outlet property="maxSteper" destination="4Ow-dk-fPf" id="18G-IF-aTg"/>
+                        <outlet property="progressView" destination="0hT-Bt-Ufo" id="Xxn-vf-1Uu"/>
+                        <outlet property="totalLabel" destination="8bJ-91-0yy" id="oG8-lG-vcO"/>
+                        <outlet property="totalSteper" destination="JrB-cu-dit" id="9RC-dS-8la"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>

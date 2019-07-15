@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DRColorProgressView.h"
+#import "DRProgressMaskView.h"
 
 FOUNDATION_EXPORT double DRProgressMaskViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char DRProgressMaskViewVersionString[];

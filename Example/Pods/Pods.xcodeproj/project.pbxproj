@@ -6,26 +6,253 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		CC3142BF73C56E413A6C42E4B6A76B13 /* DRMacroDefines */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2F7392AAF3E97A966070C71CB6801CF7 /* Build configuration list for PBXAggregateTarget "DRMacroDefines" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = DRMacroDefines;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0311D0542B05A518757295268696E84B /* DRProgressMaskView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D066B0EE570515E2FB84DE424756ED63 /* DRProgressMaskView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0399D84D4635CF2C4E92616AFE6E2C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3D24042CCA46EC6D76F4CA26CFE33EF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4B22950A4B736AC44CDD77906699E5BE /* Pods-DRProgressMaskView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C602EEDD6F77BDF9CDBE9FDD00C7E9DC /* Pods-DRProgressMaskView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		935A623644CF6266E1CB620544545D26 /* DRProgressMaskView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A30EB4AD7FC2C52C9000D7C112D5C /* DRProgressMaskView-dummy.m */; };
-		977FD23A18B6A92A32A6BEB057470BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		00B750AFA6FB509CB77490B42A50CEE9 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 09707C59767C9521362D7386D1D05031 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		049FF5895D3C1C9734041C4DAEABBFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */; };
+		060D97F05E4364D58C359AC7DD0FA4F0 /* UIImagePickerController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E020B7BFCC9F4FAD9D11BA8167664D9 /* UIImagePickerController+BlocksKit.m */; };
+		06155356D8B75BA09CE4A7E323222BC8 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F786FFA62056085706D83AE523871 /* pop-dummy.m */; };
+		0969BEF6C6FE7884758DD7E85417BC2D /* NSMutableSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7AD3B83F7A50AA385A951F8D6DD22E /* NSMutableSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BAACDD4EE174FA6B605A7184D8EDE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */; };
+		0C922C322F117F312D0A425306CC216A /* DRSandboxManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C40A45347D34F227A9D53B95D6D875B0 /* DRSandboxManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D35BF5631EE154DD2B21AF62D544563 /* UIView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F08D0286E9855CB83BADCEFA782EF48 /* UIView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DF33B80238E686A8CA6375E09C9A256 /* MFMailComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEB51D898B3DBD6A6E799242E62D3B8 /* MFMailComposeViewController+BlocksKit.m */; };
+		102B6E8F42247B82014049679CF57BA6 /* DRSandBoxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F4BCA5865E6293F95188271B46EE67 /* DRSandBoxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10FE8DDE0DF0EB34944C1E21087ACB00 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C3277F391CCB09C3CC5AD5000A60F7 /* NSArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10FF6DB87B20FFC584701E6BA9F99ED4 /* UIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A06110594A2BCE3FAF9E4193F83E8300 /* UIActionSheet+BlocksKit.m */; };
+		114ED4A2C1F679C2B0389E69839491F9 /* NSMutableOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5698CDF79BC3577D41E567AB949822E3 /* NSMutableOrderedSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		137236FC8D7AF615E340DB76FBB24583 /* NSMutableDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02227BDCB1BF3C81DBC2D2497E777E37 /* NSMutableDictionary+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17455071916534C0E64977A6FA3AF865 /* BlocksKit+MessageUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF07DF276DC0C4C693FE3A34F427C23 /* BlocksKit+MessageUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19125237226505390163618B1EA59B0F /* UIScrollView+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6BC0769E4B023BB8250BF552172AEC /* UIScrollView+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ABF86BF76BBB8CDD15DE9941C05935C /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C59DC7C0A5F573B17CAD14700046AD /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E171EB840A05FA97E466F0BA065EC39 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6C27ED6F69F17A6A099FC9DC70C4E89 /* POPAnimationEvent.mm */; };
+		1E784BDC05D45451232EA9DC0882544A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */; };
+		1F10ABB4919FAFE8DBBBC62899FE401E /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B8095C15EA9C8B8A2F2F0B6683D27932 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F2413DB5738D39FCD5CC26D95BEB8CC /* UIWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 34696F29A968C225333251E6E11EB36C /* UIWebView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F40EB0FC0E2969AA7EE956B3FF3AE81 /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F72D9D018EB252D95244FB972CF49542 /* UIBarButtonItem+BlocksKit.m */; };
+		1FB49F005B9B7BEDB04483978082BC39 /* UINavigationBar+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC10FE8E3CAD1F5A20F1AB38F73B75E /* UINavigationBar+DRExtension.m */; };
+		1FC5BBF8483BBC4A228537322CADEAFD /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 081ED3B799DE38EABBFDF7005C9E6807 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216AADD2F683BD61C405A12DDA667DB4 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C5691150299F0EFD7AA5979B11AD57 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E8208D0DFB350FF4829C5B61BD36B8 /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EA44FCA68524FF36ECB5273814B920 /* NSCache+BlocksKit.m */; };
+		250F9B348ED30E7D9BABF955FF6F71F5 /* NSSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C306D534FF31643F52435C5FF701E157 /* NSSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2510E294B07BC562FE195BC5487332C9 /* DRCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C828C8B9F719A5B9639ACF0D393BC669 /* DRCategories.framework */; };
+		283026B984A280CFC67A376DEC78B2C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */; };
+		2C5971C4766E67477D2D8ECC950B5095 /* NSMutableIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 288D569FB86D878DB5B7C6B552AA59CB /* NSMutableIndexSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C65513A933BF1025B87304799A25D03 /* DRColorProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EE731FD37F0EC8F34BCB1786431669 /* DRColorProgressView.m */; };
+		2D2EA29A9B4AB92D487AAC5621463EC5 /* NSArray+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BF11E46B15973311C140E27A05951F22 /* NSArray+DRExtension.m */; };
+		2DE92413316CEF9FACA2B57687BA747C /* BlocksKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D0F22A6A02E9F0EE6B6BA80817DC78 /* BlocksKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE42DDD6CBD888A558F5A9AB7ED9F5B /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD32883A2A499A0674D5F6FD269138 /* UIView+BlocksKit.m */; };
+		3040FA8580ACE33BE9172D48E74C2957 /* UIWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 76406C889D95B4BB3994D4E09B799896 /* UIWebView+BlocksKit.m */; };
+		30B4EDC9D7B5058E2482B2E5A5C0DA42 /* UITableView+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 013D0575122FA0BAF3564F6AD7B65D47 /* UITableView+DRExtension.m */; };
+		3176917BFF74DA2B42337A20A4A880FF /* NSString+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 110CA54D8A99F45D9313597B3314302C /* NSString+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3242C219661540323F506BCD2BCABB79 /* UITextField+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F91AECE363A15A169E8463B2DFB8892F /* UITextField+DRExtension.m */; };
+		34420E8A95A9A7E979EA2D09716787A2 /* UITextField+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9490B1F2D458474968AADE3D7F4CC9 /* UITextField+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		347EA0966B80203DBFAFB81B2999D144 /* NSCache+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 115CBF8EEFCB280C5A46DEBCF0DDCEEE /* NSCache+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34BD9E36CC35C1F4DEF7695D976E51CB /* NSDictionary+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 756773B1FF67E47D63340388290DBEC1 /* NSDictionary+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37705B968D5831B1917AEC9643AFA5B2 /* NSMutableArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B6F81699E6BFE406D5658DBA79941 /* NSMutableArray+BlocksKit.m */; };
+		37DA78160F69850B777624638DA0BCA8 /* NSObject+BKBlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F18613D2809FE36E5FD3EFEEB1F84 /* NSObject+BKBlockObservation.m */; };
+		3816DFC48F6EA56441D6830E767B2345 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = BCAE86FB4A9F85B07446AE5685CD854E /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3856CCD41756B3EA8428375807908A3C /* NSNumber+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 14302691E9AC47AA5014460E25BB5FFA /* NSNumber+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		389428FD60E3CA4BB722350BB71C737C /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEF1E81B6C59FB63727D1DE06D52D0F8 /* POPAnimatableProperty.mm */; };
+		3B498BC1828A57F324BC181D0D6C3412 /* NSObject+BKAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 891B7DFD9914E5B8D2E74E574B1864F1 /* NSObject+BKAssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CEEFD2E8B8908258F87B2DE4EB02A80 /* UIView+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B2000263E1DB2FC297C0B439B3975B80 /* UIView+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D14B9DC076B6A5D8B6994149D3AA5ED /* UIPopoverController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C330EB5AB948372360514A4EA7E75E29 /* UIPopoverController+BlocksKit.m */; };
+		46F59FA9BB713BB12E6097FE97D51891 /* NSObject+A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8101E8588ADBB3F54040A45D2F7A043 /* NSObject+A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47107D67343EFC18336E24A8E30D09FB /* UIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD546DDDCE7F355902AFFDA2031D9D /* UIAlertView+BlocksKit.m */; };
+		47A49B2577D0376C6DC13249D9D575BE /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8BD1D2241565EF05A4203F4FC9174A /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489E3A8AB9A941FF1ED3B756448F3898 /* UIScrollView+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999F7E4120EAC528F590B9161051649 /* UIScrollView+DRExtension.m */; };
+		48A12B3D7B640C6ED1AFF9BEEAB13D3A /* A2BlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FACD80367AC14768BFA7361D8D116A0 /* A2BlockInvocation.m */; };
+		4BBC5067E67ECAFC77626465DC5A9C60 /* DRInputLimitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 638D49212425300A853F6EFCAE01644B /* DRInputLimitManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C675189A7F1CE5A97A8DCFBDF29EE31 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E99B5AD892C31F855CBE4177CED078 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EAF9094250F40635881CA1EA5214F03 /* DRCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A336269E9BB40E52BED3F03D86D4BF /* DRCategories-dummy.m */; };
+		51D93DB584999A7D0DF3C38E5DA6CA30 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FAFCCDC79E54C6DE678240498402B4 /* pop.framework */; };
+		525D5FD04FA2C3E03286D10DD7FA6833 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 336421F799FB82F962F1FC702F79ADD7 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52A26C0734723D8CE5A2348788683B73 /* A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 268366051529942EF85A7B3DA71091CF /* A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		535A408ED0ECBF8B8C2CCF1CB51E83F7 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8EB34E604A2C92062514A7B17D8A8A /* POPGeometry.mm */; };
+		540329AEC3F6E66BC4AF43B2209F4E09 /* UITextField+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD69C65BFA244055ADB39C8C6A622B7 /* UITextField+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55C32C3577CAD1422F394245DD87FB3A /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = F65E54C97BEC1516002411207F227ECE /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5810407A5329A4BE190AA9F4D9FA0604 /* UIImage+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6808D18C04079382DC3EE3749638C5 /* UIImage+DRExtension.m */; };
+		5A7C457492DD6BD92C8DD5754BF32CDB /* UIBarButtonItem+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A815BE1282EE514C5CE053303D1DA /* UIBarButtonItem+DRExtension.m */; };
+		5B28517C07CF9D8449B6C8D73DAE43F8 /* MFMessageComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0573E83F3E959B2FAC88DD23CB0A2C0 /* MFMessageComposeViewController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C408C7CFF61A8D253545451EFEB0182 /* NSTimer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E0F9926DECD55C2063530AFABFD2CB /* NSTimer+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF6F827400CC3CD2A20DA7468C7778C /* UIFont+DRExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A60B17528CA1C6865F9606B0E698B68 /* UIFont+DRExtentsion.m */; };
+		5D5DCD73C76084A36C40D48C78ECA11B /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4A6DAE3D883AA20C00295C2B9F3291 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60883BB5639E14AFB55092B75EB9BD20 /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BB43AF36AE07C0E3288BD2918973CEB8 /* BlocksKit+UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65250460EEADB24CC5B57069590667D8 /* CALayer+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 68FE250BBFDC079C14A36AD92846902C /* CALayer+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661A54EE5A7EA237DC540CB8292CD3E8 /* DRColorProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7BECC111A490C1B6159E440A7E3019 /* DRColorProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66218B5701FC9DC50D0FF40A308A8143 /* UIImage+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B490B47B6757213231A75C39011CCE0 /* UIImage+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B8EF9D48A5AB5B4CB77067CE12BB71 /* NSDictionary+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A01B6BFEDB455FA27804B89729C5D16 /* NSDictionary+DRExtension.m */; };
+		68766882D2A6A24EC6CA139B4EC27CE2 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A0BABC4C0297B7893AB09C5B8B455A3E /* POPDecayAnimation.mm */; };
+		68C77ADD4DC42E47BC4A1C623567D9C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */; };
+		692ECFE250E8BE3B5319205A205ACD70 /* UIBarButtonItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC2E95C454AA31BCB4BCF8B19F4E44B /* UIBarButtonItem+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BB8CFBD156D50414721A9F99CF909E6 /* NSObject+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F22F1FFC4DA20982878A5D2F68FE4776 /* NSObject+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CE10518EE2E053F30A87F6CFA6CA268 /* A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C12ABCD80A5F91F89FA19FB0587BB3F1 /* A2DynamicDelegate.m */; };
+		6D2417F00AB6FA26ECA7EDB66E3028FA /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = CD97EF101EE3D6CF0F5FA03080AFA421 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD03A6B3E0C1840A53C17F477A81F14 /* NSInvocation+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D95EEDC9AE508CF4E94242BAA6AC6B45 /* NSInvocation+BlocksKit.m */; };
+		6FA74570D30C3F4FBDAB3551DB28A753 /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF9024CF7915535C4F4F8F55D6450A4 /* NSURLConnection+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70999C85B6D58577A77EF53F23686838 /* UIActionSheet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DC53C3E5B5291894A59C71CA3A2249 /* UIActionSheet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D4595EE78C8EAF5C70509A654B1359 /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B336A8B2F3666A1EDCCE6789368FA9 /* NSURLConnection+BlocksKit.m */; };
+		73450A6D8E347351A518B377A387CA16 /* NSSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D892AE3F1308FB712E0E17053841F /* NSSet+BlocksKit.m */; };
+		73559D32EEF444B43EBEFEC4528E6BBD /* UIFont+DRExtentsion.h in Headers */ = {isa = PBXBuildFile; fileRef = CB79371CDE997FF71B7AFEC4B14A8861 /* UIFont+DRExtentsion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7368FF0C1ECC3DE868E021BCF5B066F0 /* NSUserDefaults+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFAC451F19183BE6552F4B1846D57B2 /* NSUserDefaults+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7499F8DAC33E0B18291B133CB1736BA5 /* UIAlertView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 489EF91F3DB15D41AF12CD877AB99947 /* UIAlertView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76440AE11A07C02D3106FC18340429DC /* UIGestureRecognizer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 17A12FCB1A1A7AA90F3C5333EE0B5B1F /* UIGestureRecognizer+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776E8C4C71D198276DA5F99FF686B357 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3CA1C0F8736F2B3E37D9D18CB8882 /* POPBasicAnimation.mm */; };
+		7A751445C7E7E3C3F5EF5B1E60DCEDE1 /* Pods-DRProgressMaskView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C602EEDD6F77BDF9CDBE9FDD00C7E9DC /* Pods-DRProgressMaskView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B1FA6829BC3972F166026C90A17ED3B /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D059FC0BAC20B59917B8D41E948BE455 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BEAF8EC2D0AE19924E1DD8773CC5980 /* DRProgressMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B2DED125B6D7AB6A0AF3129FC8192D /* DRProgressMaskView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2274244D1E8CFB61E3CBB9F8FFE1E4 /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EEF793C6DAE4FE3C8FC001C2A42F2 /* UIControl+BlocksKit.m */; };
+		7E16389B222637FEEB8AF820DA37EA05 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E7DCE84285B6AB7F2837C647B4C9542 /* POPAnimator.mm */; };
+		7EC9FEB129C290DDB5BFE567011C0051 /* UIBarButtonItem+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4436C74485303A58A5DEB2A1BC5655 /* UIBarButtonItem+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F69E4442FA28CC4B131B8D2448D184C /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 629A51AD7903C2E11F82905F24719C5C /* POPVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F73EB47E95DBF91D98EE27DC8D42A9A /* DRInputLimitManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDBE001DD712F7C3F7146F4BEA3D553 /* DRInputLimitManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F86DA1CEE6E76795244DF5E5F5FA69A /* NSDate+DRExtension.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC5CF0C945070D48E631F6E50A671E1B /* NSDate+DRExtension.mm */; };
+		81663CDDFA7999DFFC0CE3CB29C8FAA6 /* NSIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C89480FE8FCF2E00C5F85593544938 /* NSIndexSet+BlocksKit.m */; };
+		822F50C4C5C9047120C4D1B156136BA6 /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F931EDE39A4237D9A8BE5B630F1803A /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833EC76312A8A1763022CB175EFA0391 /* NSObject+BKAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = AD85D9A68EBF9C43A9A4CE6AF24A1C2A /* NSObject+BKAssociatedObjects.m */; };
+		83F01614A217B738E304FD5D509E7331 /* NSMutableSet+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA0600B72CC0A437ADFA6E9C6CCF83C /* NSMutableSet+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84071D2AE52F7750FF7753E8C3F81E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */; };
+		840B56B26D5542D0501E4C4369D746D8 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66F98FEDEF8BD7CE2D93F9C9549510BB /* POPAnimation.mm */; };
+		84D2D9274F9B0E41FD2FAF735E8246FE /* NSObject+BKBlockObservation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD8C93EF50D0FD9184F8724289D7F2A /* NSObject+BKBlockObservation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BA24110AA291437E9E45BE2BF8B0DA /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = AC53122C60F45DDB713F27540CFF5E70 /* POPMath.mm */; };
+		87B9597BC2C96B1BD78F13597DADFCB0 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9176D9CAA4E955371834CE8CBE2EAE4 /* TransformationMatrix.cpp */; };
+		87C37C655E95D682D64263CB993D11F2 /* NSObject+BKBlockExecution.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB7578C21BEB7CC8EE4E704ED1190C5 /* NSObject+BKBlockExecution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F7C5F2E20E7E150D9413971223B8FB /* BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC6F74FEE8B61F7B99972BBB611C03B /* BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88594865A5B01AA7ADEE6FBC9B8A6775 /* NSOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D82E3A79D685353BEF43840726512B2 /* NSOrderedSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8907B614419100BC143C248060844129 /* UIView+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 59058AFC9F167F4D36329526D20F3B2F /* UIView+DRExtension.m */; };
+		8AD24919AEA4E1838F6591114D69A8B2 /* UITabBar+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A070F7B9D61045A9CCE0BA70F7DA3 /* UITabBar+DRExtension.m */; };
+		8B7E2A66DE0AD3253FE1CE0935F59B6E /* POPAnimatablePropertyTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8F00344A827DB0F1685C72178B6BFE /* POPAnimatablePropertyTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B8B1E9E0869B6D40D19CAB7891EAFD5 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E81D276ACD64B94EE9A8C68F3B4B3 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D38451642628E4E0C4BCE02B4A514D0 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BD632BE0CD315AD92F54D22BD1BBF1 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DFC8CF3E51BE1F89E0A29F5C58291B1 /* BlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E3C199B300A4AE3C8DE3AD448B5FD /* BlocksKit-dummy.m */; };
+		9021243C63B69817D22A7E11CC1C72D2 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 647CA065496E4743704E67FE83DE7AE5 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		928FBAAEAEE89CCE9E4639FA6FB4B5C3 /* NSMutableIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F63291043D5D6A398B8E0664A0C72 /* NSMutableIndexSet+BlocksKit.m */; };
+		92D5062A20F044FEC8EB499FB69BF482 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77BD4C5658E6917D0F2B853A26F1C746 /* POPCGUtils.mm */; };
+		93C3987DE1FAA23453A28CA885D012DF /* CAAnimation+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D494FC512428E5A249FBF3691B11BFFB /* CAAnimation+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F740876AD550EA825A54699D737226 /* UITabBar+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D571C22B37174A75FD06BED97718AB2 /* UITabBar+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9480E60C577FAE27B9F3081741079A3C /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3A8B5A112404C6AE2157F63606D9C0 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96E2A17FD73410936E7592A4F703557E /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5760CA4392B4CAC3960F1A82BD87348B /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		977FD23A18B6A92A32A6BEB057470BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */; };
+		979A839272A40C6A1CCF76FBC9555C29 /* NSAttributedString+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 737431175A2F0883AFB0061D1725E4DE /* NSAttributedString+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97A15F9B2C06F6566C07A6A620C7C8F3 /* NSObject+A2BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8AEB700AC4A042641CEBBD4B4BFEB /* NSObject+A2BlockDelegate.m */; };
+		97AF0D77AC2F3B43A978E1247AE7D640 /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77011F4648893BC6D371F733CB0F3A03 /* NSMutableDictionary+BlocksKit.m */; };
+		987EF24F42333CC2039C44845817846D /* NSString+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F6157EE98E1F20033BE7095FA05FB5 /* NSString+DRExtension.m */; };
+		98A04A3E8CD7172338BA393BE6DFC2DF /* DRInputLimitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DF221BA0B651AFEAB8F65133472A /* DRInputLimitManager.m */; };
+		9A5AB898AC65B7CCA3A5CBE210116431 /* NSInvocation+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2EE5CB1A89E124F844A7698736C6E6 /* NSInvocation+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B3807B42C2F9AF35AE1540121505A57 /* UIPopoverController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BD914B9B8987F5D79A58E90689E02B /* UIPopoverController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB32861D5FAEE0DBDAE238BC1911AAC /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0445BAB5408412DCD571F91FC9B5CFDC /* POPSpringAnimation.mm */; };
+		9BB4B8CC9BCCCCA39B94B23F7C3DFA06 /* UICollectionView+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12BB12756669C7899CFB51AA5D4DA3 /* UICollectionView+DRExtension.m */; };
+		A135AFD118BE33602E044A5BF1AD6C48 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F39FF772E088E061F2587D211704801 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A185DF381BFBEBD42084E5BF4B83981B /* NSArray+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CB763A18540329E580B7257EE050B105 /* NSArray+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19A521BCB0FDF9E17E6B56ADBA863B0 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F5542287149E06861BDB9DE22C4B5B /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C43312D5FC1EF9FC8EB61BA6F75C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */; };
+		A1E6F1D6D30F2FD70ABBCA124C637597 /* NSMutableSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A78903BB587EFEA175AE94C091D6346 /* NSMutableSet+BlocksKit.m */; };
+		A321CE4AEE64258D573B0A0AD8EFDB0D /* NSObject+BKBlockExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = F462D1B26FFFC777D52B528B49B34EB4 /* NSObject+BKBlockExecution.m */; };
+		A4F546F0DA66B8515359E5EA5661EC00 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3202D66E2F1A1E33B08AA5520D618492 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A51F238837061275AC43906B74962292 /* NSMutableOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED79D504B08F0A86B7A8BEF9A0A1AE9 /* NSMutableOrderedSet+BlocksKit.m */; };
+		A806EEB929EE9486DC138BFBB570ACFF /* UICollectionView+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAAE47945284EB5659A067718C9B772 /* UICollectionView+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A96267435E9819B0921CDCEC757599D9 /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE56511AD2339FAA7D424B6740E079A /* NSTimer+BlocksKit.m */; };
+		AA07EB43F679CD4458AB3E0BED7C851B /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 36ECDCA5D8E30DE43127A86EF83F4E68 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA9BBAD835003C253A859CDDDB9529E1 /* A2BlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 81727E4F04941A7B65449CAA011A91C2 /* A2BlockInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC709BC222DFF7F4E3A603BE2ACE8C87 /* Pods-DRProgressMaskView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C478B5FDA1F3A5FB521339242D59BB3B /* Pods-DRProgressMaskView_Tests-dummy.m */; };
-		B0F02B835E5F5745085E2B577CF5BFDA /* Pods-DRProgressMaskView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC66869E1BDF8C1383C3B26D86392D /* Pods-DRProgressMaskView_Example-dummy.m */; };
+		AEBEA21F01229E939FF2DF1A95C38898 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE21239D6B6144EECDDDE07B9EAF4B02 /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEDE103BCC4E9C649CBABAB6021977C1 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8857F203746055E8BF93C3C1CBF51286 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEF96A70E5CD25EBBB574E246B1D8039 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32A278D1175A8886AA7E8D845FA2AF21 /* POPVector.mm */; };
+		AFF4CA9DC3D28913B1D7E5B61C885605 /* NSAttributedString+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2EC159C5FB7494B3AF7E717FBB7F3C /* NSAttributedString+DRExtension.m */; };
+		B1E46485E55D2A49610C990628824EB8 /* DRProgressMaskView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 787AE6D711B21C6E4222B3B8C8159BBB /* DRProgressMaskView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3CA2F891A27333854CD574841893841 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BD3E4816E3A45BB6837F405F2BEDB4 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EC55F887A10034D71CA508AA44FEEE /* NSObject+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EF7B7B74496A81B84B213C55C9DC43 /* NSObject+DRExtension.m */; };
+		B42485D47B351B2699E4A8FD6252F1DA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C79B92386D319F12D9477C9E79F0FC /* MessageUI.framework */; };
+		B4AF9C0EDF6BD591A3B13E56D3120BA5 /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 616BC22E3F62846290079912FDABADD9 /* NSMutableArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B693BBBA3557D70B7743237793676BF3 /* DRSandBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EAC41988D65F2B8F3C14D584C06CA3 /* DRSandBoxManager.m */; };
+		B7438B9B18B4266A8F31D85ECCF4AD3C /* NSDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767ACA3F5027738562370DCCA9E26A9 /* NSDictionary+BlocksKit.m */; };
+		B7E043E7C2A387C7485536DD7B8647D3 /* DRSandboxManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA092D4105F6C49E212A124BFCD26EA /* DRSandboxManager-dummy.m */; };
+		B8F5B13845477ED9BD47EE95B567911A /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 050DAEB8F0209820CBFE897E4091EF1C /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9C8CA8DF39FDBC035C7FC68185D39C6 /* UITextField+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AD59605CA423D7E45ED690A06B57E0 /* UITextField+BlocksKit.m */; };
+		B9E58650B9274E936D2AE09A21BDC2E2 /* UITextView+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D41561FE1720EBF311B8B9DFC10B39 /* UITextView+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB5C04BBAFE9E79560DEED437BC454BD /* UITextView+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000BBD8BE47D8EE75C6339500ED13FD /* UITextView+DRExtension.m */; };
+		C4385C0B6CB92D687F38133693AE001E /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEC0F1E153C239A1D8C65F93DFEC563 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4A50B1EA0B00BB26DC6647AA6509DC4 /* Pods-DRProgressMaskView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4F3365FD94CA5B8278EDF10197F3F5 /* Pods-DRProgressMaskView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9FBB75C0E67F35FFCB30F89828CBE75 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 757C5E74ECB3886508279133C211EC30 /* ReplaceMe.m */; };
+		C58C6B22521BFEEA13867099F69DFD82 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C10E45E0C9A45E81AB3CDB65409EA89A /* POPCustomAnimation.mm */; };
+		C7474EDC3F3EF6C08129D472CC6727B4 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = B86C0403E7BA4F2133C64D09A50A71BB /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C94EDEFE86043475EAD86BB06C4A2A7E /* UIControl+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 742B3933E9B2A50A1B50B174CC3994B9 /* UIControl+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD232D7427BFDDDE92372CD994A82FBE /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 08AC8C9A59DEE9FB1774C3F0A0960917 /* POPAnimationRuntime.mm */; };
+		CE50E77E6C463FF154266993457F36B4 /* NSNumber+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 996146C4133EADAE5DF63C5B23F750C0 /* NSNumber+DRExtension.m */; };
+		D0968981047C1ACC5367C2E17D7CFDE8 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8752923DC6EF5E18802F87C41FC0C666 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D18D4EBB1F05415DAD614622E0CE58EA /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A36978DC7C8C0EF12674E3C5012E68 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32FDA4F528D1D516E93B9FEAA5035F0 /* NSIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E137492E6B6BFB4BE7469749AE7007F2 /* NSIndexSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4932381A6B9AE41430F39AA41B61C5C /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CEC549E3A2981E97F2B5E37AC6C264 /* BlocksKit.framework */; };
+		D6616F3DBF175B29F73C73E3CBE76D96 /* MFMessageComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 20996498D809D3B679CC343438A5BCB9 /* MFMessageComposeViewController+BlocksKit.m */; };
+		D8A74F63CDF6E4983F4FC60286707BF8 /* DRInputLimitManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE57C96343FFAF479324E1DC3C2C240D /* DRInputLimitManager-dummy.m */; };
+		D93562BC5787E7909635118115736F10 /* DRProgressMaskView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B22792688920D2C1DB41624B7CC5BA6C /* DRProgressMaskView-dummy.m */; };
+		D966A006C36C007467A83195BB416C6E /* UITableView+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 528DBBF49C837F3315A471177DE6DDA5 /* UITableView+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAEEAE7ECC0AAD622BC476A5C10DFC51 /* CALayer+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0DC5AF8EC9410528FCA7D5E1D15B64 /* CALayer+DRExtension.m */; };
+		DBE8EBD91B955DEAEE1C9BAE69FD4E02 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF9304368DDBF4B6C958A32E5FEC64C3 /* POPAnimationTracer.mm */; };
+		DC1525E3D1203332752AF1792978F4BB /* NSUserDefaults+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAD06FCF4E041CB4F96C6D5403D5D8A /* NSUserDefaults+DRExtension.m */; };
+		DD5E77B3B50BF0416192655F721F6199 /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 102F8E339F9FE9DFEF5237BE7073E1B2 /* NSArray+BlocksKit.m */; };
+		DEC876A5E3F859B09054ABDCE1DFA627 /* UINavigationBar+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCEEF3A2625687B0B9C3F293DF61DD7 /* UINavigationBar+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2DF35FF9B7C2961B70CCAE2B59C28E /* NSDate+DRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F0217A18BFA71BE4FDDAE2097E1CE1 /* NSDate+DRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E255B60CEED23900665D0967E0A7146F /* NSMutableSet+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C105AFD15F6FA8E1482A9E47DE422B /* NSMutableSet+DRExtension.m */; };
+		E383587130AEEA80345DCAB484CEB290 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A838668EE6318F420B0B40C0935FD8 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E58A1E7159EE46F529CBE5EC35668136 /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C6FA5701A92DB2A1E576CB40A68375 /* NSObject+A2BlockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E957ACC5BBB9E4CCFB97BA4B38096C23 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FBE53BA7D0421610B93475F27860EB /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA22FE1004A9B46323EE5D1FCFFE9979 /* NSDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 99706A3F98C88313FF94FB2440C869E8 /* NSDictionary+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA273C129BE5046E0024FCED192B5FF8 /* DRSandboxManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7D44BEFEECE258A6E4B2B74518F708 /* DRSandboxManager.framework */; };
+		EBA11C9B0463E7B5BACE78E18D06AFC3 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 434EA70613155B7F63DAD04C31EE4297 /* POPLayerExtras.mm */; };
+		EDA5B20F4FB7C470361F597D85ABCFFD /* Pods-DRProgressMaskView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC66869E1BDF8C1383C3B26D86392D /* Pods-DRProgressMaskView_Example-dummy.m */; };
+		EF6A1189F5F8DD00685C05C3F258458F /* CAAnimation+DRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E21F56ADDA06AA1D3639F418C043B98A /* CAAnimation+DRExtension.m */; };
+		F26E039E1D4249E4E9FBA94ED67D887B /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C281AA8B638DDD2D001FB29B456D98C8 /* UIGestureRecognizer+BlocksKit.m */; };
+		F433FD0FB2D5EE1C8BE9B266EB4D72B7 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4758F21B9DA7730968F0FF1EEFD7755C /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5AC91393AD1F11EA29C42F0FD41A431 /* DRInputLimitManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755215ADDAEFF965D59AFAA8C14DD812 /* DRInputLimitManager.framework */; };
+		F7ABC3A74E2F9E208B2ABBF5B75D6B4D /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78B9310B6EFD2BB09630F6980341A186 /* POPPropertyAnimation.mm */; };
+		F85BB544CF72CAB536355CD62C646781 /* MFMailComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 527CB61F991AF1884D1F4181BCB01C74 /* MFMailComposeViewController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FFBC801D948D90623D468FA95B53E0 /* NSObject+A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02339FC1E6C68AE581A9CB0887B51032 /* NSObject+A2DynamicDelegate.m */; };
+		FAF50ECC8CCF4FA0F5ACC94B20ED898C /* DRCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02DBC370AB1C10553E9EE20BC417064 /* DRCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBA5C909E2DE931EBC071CA364528474 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39D102BF83251AE131D84B58CE56C405 /* POPAnimationExtras.mm */; };
+		FCE592CAEB7F3034141CE97DD7488330 /* DRProgressMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E2FC1BF8241C51CD409B1DDE9F191 /* DRProgressMaskView.m */; };
+		FE624387EB0915237B72C184481757B3 /* UIImagePickerController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F74E8B1C050F38E11FB6639DD7451046 /* UIImagePickerController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDF5137376592F516DB77512A6BF02D /* NSOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB532238DD3C64E69A8DECC392E75C56 /* NSOrderedSet+BlocksKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		233F4C867616524E54C242B81D5364D3 /* PBXContainerItemProxy */ = {
+		06E6C7EBEEE9A912C8BC1D6FE38D7B68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1EE6D59A8811C960887DACCDCD83C899;
-			remoteInfo = DRProgressMaskView;
+			remoteGlobalIDString = B95D6D4E012A8E578DA54065DF5F8D53;
+			remoteInfo = DRCategories;
+		};
+		0A6920A8EE1A901C496E2BB6D956A662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95D6D4E012A8E578DA54065DF5F8D53;
+			remoteInfo = DRCategories;
+		};
+		1AA5DAD8D9D7586E48059227CE682DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0483D7F620C992E5C4BD62A7266EABB4;
+			remoteInfo = pop;
+		};
+		1BF57CCDCB6A2AFD358BACD1FB0B38E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0483D7F620C992E5C4BD62A7266EABB4;
+			remoteInfo = pop;
 		};
 		31CAC92553CE3AC775A7691BED295335 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,41 +261,320 @@
 			remoteGlobalIDString = 4B55E7AAE4010985EEB6DDD6691C5AA1;
 			remoteInfo = "Pods-DRProgressMaskView_Example";
 		};
+		3AB42DFFAA69774FC4245F11F1FF5AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE6D59A8811C960887DACCDCD83C899;
+			remoteInfo = DRProgressMaskView;
+		};
+		3F11D9CC875531573CCE13A701518120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9BA31CC8B6BDC6E726CE514EA3BB61;
+			remoteInfo = DRSandboxManager;
+		};
+		4E762E78A2EA09FAB33B452E3D94EF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9BA31CC8B6BDC6E726CE514EA3BB61;
+			remoteInfo = DRSandboxManager;
+		};
+		6BF402C1C8A6C94B2D2D03968B4A7E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7EC99D3ED1889C0E866F0A31F6D40D;
+			remoteInfo = DRInputLimitManager;
+		};
+		CE4D9F97FE03116B31E3E5033B66B3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2777DC549C19A310651FBD3C87B71DF;
+			remoteInfo = BlocksKit;
+		};
+		D2D21AE8FAD6719F111A61DC2BAFA5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2777DC549C19A310651FBD3C87B71DF;
+			remoteInfo = BlocksKit;
+		};
+		E3501EED4720DCFA93FE22DB512DDCC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3142BF73C56E413A6C42E4B6A76B13;
+			remoteInfo = DRMacroDefines;
+		};
+		EF8171E94E3F601D4928D1C55F5FF04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7EC99D3ED1889C0E866F0A31F6D40D;
+			remoteInfo = DRInputLimitManager;
+		};
+		F625F0FB2C6CA85CF7BD5696ED2DAE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3142BF73C56E413A6C42E4B6A76B13;
+			remoteInfo = DRMacroDefines;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DC53C3E5B5291894A59C71CA3A2249 /* UIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+BlocksKit.h"; path = "BlocksKit/UIKit/UIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
+		013D0575122FA0BAF3564F6AD7B65D47 /* UITableView+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+DRExtension.m"; path = "DRCategories/Classes/UIKit/UITableView+DRExtension.m"; sourceTree = "<group>"; };
+		02227BDCB1BF3C81DBC2D2497E777E37 /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+BlocksKit.h"; path = "BlocksKit/Core/NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		02339FC1E6C68AE581A9CB0887B51032 /* NSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2DynamicDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
+		043A070F7B9D61045A9CCE0BA70F7DA3 /* UITabBar+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+DRExtension.m"; path = "DRCategories/Classes/UIKit/UITabBar+DRExtension.m"; sourceTree = "<group>"; };
+		0445BAB5408412DCD571F91FC9B5CFDC /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		04C105AFD15F6FA8E1482A9E47DE422B /* NSMutableSet+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableSet+DRExtension.m"; path = "DRCategories/Classes/Foundation/NSMutableSet+DRExtension.m"; sourceTree = "<group>"; };
+		050DAEB8F0209820CBFE897E4091EF1C /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		05EA44FCA68524FF36ECB5273814B920 /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m"; sourceTree = "<group>"; };
 		0818434BE415979954244D1BA48B9583 /* Pods-DRProgressMaskView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRProgressMaskView_Example-Info.plist"; sourceTree = "<group>"; };
-		12FA38F359435F1578FF8D14C1DCFBDC /* Pods_DRProgressMaskView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRProgressMaskView_Tests.framework; path = "Pods-DRProgressMaskView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19FFFD224F2B3C39634105A116C3C82A /* Pods_DRProgressMaskView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRProgressMaskView_Example.framework; path = "Pods-DRProgressMaskView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		081ED3B799DE38EABBFDF7005C9E6807 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		08909DB91EE72054F3EAAF40BC1F7764 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		08AC8C9A59DEE9FB1774C3F0A0960917 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		09707C59767C9521362D7386D1D05031 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		099F786FFA62056085706D83AE523871 /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		0A5E81D276ACD64B94EE9A8C68F3B4B3 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		0A60B17528CA1C6865F9606B0E698B68 /* UIFont+DRExtentsion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+DRExtentsion.m"; path = "DRCategories/Classes/UIKit/UIFont+DRExtentsion.m"; sourceTree = "<group>"; };
+		0C46783B788E8E3FA9174EB890F698FF /* Pods_DRProgressMaskView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRProgressMaskView_Example.framework; path = "Pods-DRProgressMaskView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7BECC111A490C1B6159E440A7E3019 /* DRColorProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorProgressView.h; path = DRProgressMaskView/Classes/DRColorProgressView.h; sourceTree = "<group>"; };
+		0D7F1C2590FB7BEFB416A4AEB782C629 /* DRSandboxManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRSandboxManager-prefix.pch"; sourceTree = "<group>"; };
+		0F931EDE39A4237D9A8BE5B630F1803A /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
+		1000BBD8BE47D8EE75C6339500ED13FD /* UITextView+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+DRExtension.m"; path = "DRCategories/Classes/UIKit/UITextView+DRExtension.m"; sourceTree = "<group>"; };
+		102F8E339F9FE9DFEF5237BE7073E1B2 /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BlocksKit.m"; path = "BlocksKit/Core/NSArray+BlocksKit.m"; sourceTree = "<group>"; };
+		110CA54D8A99F45D9313597B3314302C /* NSString+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSString+DRExtension.h"; sourceTree = "<group>"; };
+		115CBF8EEFCB280C5A46DEBCF0DDCEEE /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+BlocksKit.h"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.h"; sourceTree = "<group>"; };
+		14302691E9AC47AA5014460E25BB5FFA /* NSNumber+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSNumber+DRExtension.h"; sourceTree = "<group>"; };
+		17A12FCB1A1A7AA90F3C5333EE0B5B1F /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+BlocksKit.h"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
+		17F5542287149E06861BDB9DE22C4B5B /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
 		1ABC66869E1BDF8C1383C3B26D86392D /* Pods-DRProgressMaskView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRProgressMaskView_Example-dummy.m"; sourceTree = "<group>"; };
-		2D6D69DD425A31D59B82AB83A0F75AAB /* DRProgressMaskView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DRProgressMaskView.modulemap; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4DC831FDC641F7C4C4120A2CA52DDC95 /* DRProgressMaskView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRProgressMaskView-Info.plist"; sourceTree = "<group>"; };
+		1BCEEF3A2625687B0B9C3F293DF61DD7 /* UINavigationBar+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+DRExtension.h"; path = "DRCategories/Classes/UIKit/UINavigationBar+DRExtension.h"; sourceTree = "<group>"; };
+		1C8BD1D2241565EF05A4203F4FC9174A /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		1F32DF221BA0B651AFEAB8F65133472A /* DRInputLimitManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRInputLimitManager.m; path = DRInputLimitManager/Classes/DRInputLimitManager.m; sourceTree = "<group>"; };
+		1F7F18613D2809FE36E5FD3EFEEB1F84 /* NSObject+BKBlockObservation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKBlockObservation.m"; path = "BlocksKit/Core/NSObject+BKBlockObservation.m"; sourceTree = "<group>"; };
+		20996498D809D3B679CC343438A5BCB9 /* MFMessageComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MFMessageComposeViewController+BlocksKit.m"; path = "BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
+		23BDCA23769823FDE241CE699D8DECC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		25BD3E4816E3A45BB6837F405F2BEDB4 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		268366051529942EF85A7B3DA71091CF /* A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2DynamicDelegate.h; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.h; sourceTree = "<group>"; };
+		27AC65142104135F7E9DFB5EC62AB665 /* DRCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRCategories-Info.plist"; sourceTree = "<group>"; };
+		288D569FB86D878DB5B7C6B552AA59CB /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		28A359CA07A8698B61109EF449DC70E4 /* DRProgressMaskView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DRProgressMaskView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CFD32883A2A499A0674D5F6FD269138 /* UIView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BlocksKit.m"; path = "BlocksKit/UIKit/UIView+BlocksKit.m"; sourceTree = "<group>"; };
+		2EC3CA1C0F8736F2B3E37D9D18CB8882 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		2F39FF772E088E061F2587D211704801 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		305ED9D056E450405E040F0642DABC2B /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		3202D66E2F1A1E33B08AA5520D618492 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		32A278D1175A8886AA7E8D845FA2AF21 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		336421F799FB82F962F1FC702F79ADD7 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		34696F29A968C225333251E6E11EB36C /* UIWebView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+BlocksKit.h"; path = "BlocksKit/UIKit/UIWebView+BlocksKit.h"; sourceTree = "<group>"; };
+		36ECDCA5D8E30DE43127A86EF83F4E68 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		37D41561FE1720EBF311B8B9DFC10B39 /* UITextView+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+DRExtension.h"; path = "DRCategories/Classes/UIKit/UITextView+DRExtension.h"; sourceTree = "<group>"; };
+		37E99B5AD892C31F855CBE4177CED078 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		39D102BF83251AE131D84B58CE56C405 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		3A01B6BFEDB455FA27804B89729C5D16 /* NSDictionary+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+DRExtension.m"; path = "DRCategories/Classes/Foundation/NSDictionary+DRExtension.m"; sourceTree = "<group>"; };
+		3A7AD3B83F7A50AA385A951F8D6DD22E /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
+		3A7D44BEFEECE258A6E4B2B74518F708 /* DRSandboxManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRSandboxManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C92914F5CE87F1F10FD83BE251C6DE4 /* DRMacroDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRMacroDefines.h; path = DRMacroDefines/Classes/DRMacroDefines.h; sourceTree = "<group>"; };
+		3DA0600B72CC0A437ADFA6E9C6CCF83C /* NSMutableSet+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSMutableSet+DRExtension.h"; sourceTree = "<group>"; };
+		3DC10FE8E3CAD1F5A20F1AB38F73B75E /* UINavigationBar+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+DRExtension.m"; path = "DRCategories/Classes/UIKit/UINavigationBar+DRExtension.m"; sourceTree = "<group>"; };
+		3E020B7BFCC9F4FAD9D11BA8167664D9 /* UIImagePickerController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+BlocksKit.m"; path = "BlocksKit/UIKit/UIImagePickerController+BlocksKit.m"; sourceTree = "<group>"; };
+		3F2EE5CB1A89E124F844A7698736C6E6 /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+BlocksKit.h"; path = "BlocksKit/Core/NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
+		40B2F6D234B3C3AD347F54B487A5DF60 /* BlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-prefix.pch"; sourceTree = "<group>"; };
+		414076209947D3962CC5104082FF1CEF /* DRSandboxManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRSandboxManager-Info.plist"; sourceTree = "<group>"; };
+		42C5691150299F0EFD7AA5979B11AD57 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		434EA70613155B7F63DAD04C31EE4297 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		45BD632BE0CD315AD92F54D22BD1BBF1 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		4758F21B9DA7730968F0FF1EEFD7755C /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		489EF91F3DB15D41AF12CD877AB99947 /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+BlocksKit.h"; path = "BlocksKit/UIKit/UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
+		48CEC549E3A2981E97F2B5E37AC6C264 /* BlocksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlocksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E0F9926DECD55C2063530AFABFD2CB /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+BlocksKit.h"; path = "BlocksKit/Core/NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		4A1D892AE3F1308FB712E0E17053841F /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+BlocksKit.m"; path = "BlocksKit/Core/NSSet+BlocksKit.m"; sourceTree = "<group>"; };
+		4AD69C65BFA244055ADB39C8C6A622B7 /* UITextField+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+BlocksKit.h"; path = "BlocksKit/UIKit/UITextField+BlocksKit.h"; sourceTree = "<group>"; };
+		4D571C22B37174A75FD06BED97718AB2 /* UITabBar+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+DRExtension.h"; path = "DRCategories/Classes/UIKit/UITabBar+DRExtension.h"; sourceTree = "<group>"; };
+		4EE56511AD2339FAA7D424B6740E079A /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+BlocksKit.m"; path = "BlocksKit/Core/NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		4F0A815BE1282EE514C5CE053303D1DA /* UIBarButtonItem+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+DRExtension.m"; path = "DRCategories/Classes/UIKit/UIBarButtonItem+DRExtension.m"; sourceTree = "<group>"; };
+		527CB61F991AF1884D1F4181BCB01C74 /* MFMailComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMailComposeViewController+BlocksKit.h"; path = "BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		528DBBF49C837F3315A471177DE6DDA5 /* UITableView+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+DRExtension.h"; path = "DRCategories/Classes/UIKit/UITableView+DRExtension.h"; sourceTree = "<group>"; };
+		52EAC41988D65F2B8F3C14D584C06CA3 /* DRSandBoxManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRSandBoxManager.m; path = DRSandboxManager/Classes/DRSandBoxManager.m; sourceTree = "<group>"; };
+		5698CDF79BC3577D41E567AB949822E3 /* NSMutableOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		5760CA4392B4CAC3960F1A82BD87348B /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		59058AFC9F167F4D36329526D20F3B2F /* UIView+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DRExtension.m"; path = "DRCategories/Classes/UIKit/UIView+DRExtension.m"; sourceTree = "<group>"; };
+		5A6E3C199B300A4AE3C8DE3AD448B5FD /* BlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlocksKit-dummy.m"; sourceTree = "<group>"; };
+		5B12BB12756669C7899CFB51AA5D4DA3 /* UICollectionView+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+DRExtension.m"; path = "DRCategories/Classes/UIKit/UICollectionView+DRExtension.m"; sourceTree = "<group>"; };
 		5C0A671C2E20651387E9533610087699 /* Pods-DRProgressMaskView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRProgressMaskView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6066A08269486ACCC1428003AF4F5DFB /* DRProgressMaskView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRProgressMaskView.framework; path = DRProgressMaskView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF07DF276DC0C4C693FE3A34F427C23 /* BlocksKit+MessageUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+MessageUI.h"; path = "BlocksKit/BlocksKit+MessageUI.h"; sourceTree = "<group>"; };
+		5FACD80367AC14768BFA7361D8D116A0 /* A2BlockInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2BlockInvocation.m; path = BlocksKit/DynamicDelegate/A2BlockInvocation.m; sourceTree = "<group>"; };
+		616BC22E3F62846290079912FDABADD9 /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+BlocksKit.h"; path = "BlocksKit/Core/NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
+		629A51AD7903C2E11F82905F24719C5C /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		638D49212425300A853F6EFCAE01644B /* DRInputLimitManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRInputLimitManager.h; path = DRInputLimitManager/Classes/DRInputLimitManager.h; sourceTree = "<group>"; };
+		647CA065496E4743704E67FE83DE7AE5 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		64B336A8B2F3666A1EDCCE6789368FA9 /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
+		653CE7FEC7513B93223EA530B28A0D8A /* DRProgressMaskView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRProgressMaskView-prefix.pch"; sourceTree = "<group>"; };
+		66BB59CA63B289BF2F59354C401675DA /* BlocksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlocksKit.framework; path = BlocksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F98FEDEF8BD7CE2D93F9C9549510BB /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		67C89480FE8FCF2E00C5F85593544938 /* NSIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		68FE250BBFDC079C14A36AD92846902C /* CALayer+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+DRExtension.h"; path = "DRCategories/Classes/UIKit/CALayer+DRExtension.h"; sourceTree = "<group>"; };
+		69C3277F391CCB09C3CC5AD5000A60F7 /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BlocksKit.h"; path = "BlocksKit/Core/NSArray+BlocksKit.h"; sourceTree = "<group>"; };
+		6AD6941AAF379FC0ED674E424DA888A9 /* DRCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRCategories.xcconfig; sourceTree = "<group>"; };
+		6B9490B1F2D458474968AADE3D7F4CC9 /* UITextField+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+DRExtension.h"; path = "DRCategories/Classes/UIKit/UITextField+DRExtension.h"; sourceTree = "<group>"; };
+		6BBCE18F945EBA0D24E4C63BE9570815 /* DRCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DRCategories.modulemap; sourceTree = "<group>"; };
+		6C6BC0769E4B023BB8250BF552172AEC /* UIScrollView+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+DRExtension.h"; path = "DRCategories/Classes/UIKit/UIScrollView+DRExtension.h"; sourceTree = "<group>"; };
+		6D91BF75C217A35EEAEAD6A3EDB18168 /* DRProgressMaskView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRProgressMaskView-Info.plist"; sourceTree = "<group>"; };
+		6F08D0286E9855CB83BADCEFA782EF48 /* UIView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BlocksKit.h"; path = "BlocksKit/UIKit/UIView+BlocksKit.h"; sourceTree = "<group>"; };
+		6FD8C93EF50D0FD9184F8724289D7F2A /* NSObject+BKBlockObservation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKBlockObservation.h"; path = "BlocksKit/Core/NSObject+BKBlockObservation.h"; sourceTree = "<group>"; };
 		733055D62E9B17DB764842B750756097 /* Pods-DRProgressMaskView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRProgressMaskView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		757C5E74ECB3886508279133C211EC30 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DRProgressMaskView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		737431175A2F0883AFB0061D1725E4DE /* NSAttributedString+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSAttributedString+DRExtension.h"; sourceTree = "<group>"; };
+		742B3933E9B2A50A1B50B174CC3994B9 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+BlocksKit.h"; path = "BlocksKit/UIKit/UIControl+BlocksKit.h"; sourceTree = "<group>"; };
+		74E6E2BF5F86E77275AC564B8FC6A313 /* DRProgressMaskView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DRProgressMaskView.modulemap; sourceTree = "<group>"; };
+		755215ADDAEFF965D59AFAA8C14DD812 /* DRInputLimitManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRInputLimitManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		756773B1FF67E47D63340388290DBEC1 /* NSDictionary+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSDictionary+DRExtension.h"; sourceTree = "<group>"; };
+		76406C889D95B4BB3994D4E09B799896 /* UIWebView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+BlocksKit.m"; path = "BlocksKit/UIKit/UIWebView+BlocksKit.m"; sourceTree = "<group>"; };
+		77011F4648893BC6D371F733CB0F3A03 /* NSMutableDictionary+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+BlocksKit.m"; path = "BlocksKit/Core/NSMutableDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		77BD4C5658E6917D0F2B853A26F1C746 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		787AE6D711B21C6E4222B3B8C8159BBB /* DRProgressMaskView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRProgressMaskView-umbrella.h"; sourceTree = "<group>"; };
+		78B9310B6EFD2BB09630F6980341A186 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		7999F7E4120EAC528F590B9161051649 /* UIScrollView+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+DRExtension.m"; path = "DRCategories/Classes/UIKit/UIScrollView+DRExtension.m"; sourceTree = "<group>"; };
+		79E2C9DFAA4D10C317BA59DA41DE71EC /* DRCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRCategories-prefix.pch"; sourceTree = "<group>"; };
+		7A78903BB587EFEA175AE94C091D6346 /* NSMutableSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.m"; sourceTree = "<group>"; };
+		7C4A6DAE3D883AA20C00295C2B9F3291 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		7D82E3A79D685353BEF43840726512B2 /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		7ED79D504B08F0A86B7A8BEF9A0A1AE9 /* NSMutableOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableOrderedSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		7EEB51D898B3DBD6A6E799242E62D3B8 /* MFMailComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MFMailComposeViewController+BlocksKit.m"; path = "BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
+		7F3A8B5A112404C6AE2157F63606D9C0 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		7F8EEF793C6DAE4FE3C8FC001C2A42F2 /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+BlocksKit.m"; path = "BlocksKit/UIKit/UIControl+BlocksKit.m"; sourceTree = "<group>"; };
+		81727E4F04941A7B65449CAA011A91C2 /* A2BlockInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2BlockInvocation.h; path = BlocksKit/DynamicDelegate/A2BlockInvocation.h; sourceTree = "<group>"; };
+		82BED43BE542FE9A403DE71925DA4B80 /* DRInputLimitManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRInputLimitManager-Info.plist"; sourceTree = "<group>"; };
+		8752923DC6EF5E18802F87C41FC0C666 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		87FBE53BA7D0421610B93475F27860EB /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		8857F203746055E8BF93C3C1CBF51286 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		891B7DFD9914E5B8D2E74E574B1864F1 /* NSObject+BKAssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKAssociatedObjects.h"; path = "BlocksKit/Core/NSObject+BKAssociatedObjects.h"; sourceTree = "<group>"; };
 		899318E329CA28A5B4DAF6848C999EAB /* Pods-DRProgressMaskView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRProgressMaskView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8B1B6F81699E6BFE406D5658DBA79941 /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+BlocksKit.m"; path = "BlocksKit/Core/NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
+		8B4436C74485303A58A5DEB2A1BC5655 /* UIBarButtonItem+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+DRExtension.h"; path = "DRCategories/Classes/UIKit/UIBarButtonItem+DRExtension.h"; sourceTree = "<group>"; };
+		8C8F00344A827DB0F1685C72178B6BFE /* POPAnimatablePropertyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatablePropertyTypes.h; path = pop/POPAnimatablePropertyTypes.h; sourceTree = "<group>"; };
+		9767ACA3F5027738562370DCCA9E26A9 /* NSDictionary+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BlocksKit.m"; path = "BlocksKit/Core/NSDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		98D0F22A6A02E9F0EE6B6BA80817DC78 /* BlocksKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-umbrella.h"; sourceTree = "<group>"; };
+		996146C4133EADAE5DF63C5B23F750C0 /* NSNumber+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+DRExtension.m"; path = "DRCategories/Classes/Foundation/NSNumber+DRExtension.m"; sourceTree = "<group>"; };
+		99706A3F98C88313FF94FB2440C869E8 /* NSDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BlocksKit.h"; path = "BlocksKit/Core/NSDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		9A0DC5AF8EC9410528FCA7D5E1D15B64 /* CALayer+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+DRExtension.m"; path = "DRCategories/Classes/UIKit/CALayer+DRExtension.m"; sourceTree = "<group>"; };
+		9B490B47B6757213231A75C39011CCE0 /* UIImage+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+DRExtension.h"; path = "DRCategories/Classes/UIKit/UIImage+DRExtension.h"; sourceTree = "<group>"; };
+		9BBD546DDDCE7F355902AFFDA2031D9D /* UIAlertView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+BlocksKit.m"; path = "BlocksKit/UIKit/UIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
+		9BF8628584BE8240C6DA3BA07F04F843 /* DRInputLimitManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DRInputLimitManager.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB8513DFB6A648C9340F7A577FD83827 /* DRProgressMaskView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DRProgressMaskView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE324D1A42F295146941C727DF31F44 /* DRProgressMaskView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRProgressMaskView.xcconfig; sourceTree = "<group>"; };
+		9E7DCE84285B6AB7F2837C647B4C9542 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		A02DBC370AB1C10553E9EE20BC417064 /* DRCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRCategories-umbrella.h"; sourceTree = "<group>"; };
+		A06110594A2BCE3FAF9E4193F83E8300 /* UIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+BlocksKit.m"; path = "BlocksKit/UIKit/UIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
+		A0BABC4C0297B7893AB09C5B8B455A3E /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ABA092D4105F6C49E212A124BFCD26EA /* DRSandboxManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRSandboxManager-dummy.m"; sourceTree = "<group>"; };
+		AC53122C60F45DDB713F27540CFF5E70 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		AD85D9A68EBF9C43A9A4CE6AF24A1C2A /* NSObject+BKAssociatedObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKAssociatedObjects.m"; path = "BlocksKit/Core/NSObject+BKAssociatedObjects.m"; sourceTree = "<group>"; };
+		AD8EB34E604A2C92062514A7B17D8A8A /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
 		AE03ED86B37FE61190410D4A2DB41074 /* Pods-DRProgressMaskView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DRProgressMaskView_Example.modulemap"; sourceTree = "<group>"; };
-		B12F07D071D41D6078466EBA6FCC38A2 /* DRProgressMaskView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRProgressMaskView.xcconfig; sourceTree = "<group>"; };
+		AE21239D6B6144EECDDDE07B9EAF4B02 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		AFEC0F1E153C239A1D8C65F93DFEC563 /* BKMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMacros.h; path = BlocksKit/Core/BKMacros.h; sourceTree = "<group>"; };
+		B0573E83F3E959B2FAC88DD23CB0A2C0 /* MFMessageComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMessageComposeViewController+BlocksKit.h"; path = "BlocksKit/MessageUI/MFMessageComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		B1AD59605CA423D7E45ED690A06B57E0 /* UITextField+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+BlocksKit.m"; path = "BlocksKit/UIKit/UITextField+BlocksKit.m"; sourceTree = "<group>"; };
+		B2000263E1DB2FC297C0B439B3975B80 /* UIView+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DRExtension.h"; path = "DRCategories/Classes/UIKit/UIView+DRExtension.h"; sourceTree = "<group>"; };
+		B22792688920D2C1DB41624B7CC5BA6C /* DRProgressMaskView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRProgressMaskView-dummy.m"; sourceTree = "<group>"; };
 		B3C024A74E1FF7C3D952588C42A3E36B /* Pods-DRProgressMaskView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DRProgressMaskView_Tests.modulemap"; sourceTree = "<group>"; };
+		B4B2DED125B6D7AB6A0AF3129FC8192D /* DRProgressMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRProgressMaskView.h; path = DRProgressMaskView/Classes/DRProgressMaskView.h; sourceTree = "<group>"; };
+		B5EF7B7B74496A81B84B213C55C9DC43 /* NSObject+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DRExtension.m"; path = "DRCategories/Classes/Foundation/NSObject+DRExtension.m"; sourceTree = "<group>"; };
+		B5F498CCD3B0AA9FEB56134EAC6A9E5B /* BlocksKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlocksKit.modulemap; sourceTree = "<group>"; };
 		B6187E7683ACCD4EDFBA0726B31043C7 /* Pods-DRProgressMaskView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRProgressMaskView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7ABEC9DD909812139977FD18B81EFF3 /* Pods-DRProgressMaskView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRProgressMaskView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B8218BD10DF18C3F280D9C30DFAB27D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B7BD914B9B8987F5D79A58E90689E02B /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+BlocksKit.h"; path = "BlocksKit/UIKit/UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
+		B8095C15EA9C8B8A2F2F0B6683D27932 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		B832E42CB753834EC98A93FC09E85A49 /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pop.modulemap; sourceTree = "<group>"; };
+		B86C0403E7BA4F2133C64D09A50A71BB /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		B90F5C51A40A9B5128D8D250CD07BAF4 /* DRProgressMaskView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRProgressMaskView.framework; path = DRProgressMaskView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC2E95C454AA31BCB4BCF8B19F4E44B /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+BlocksKit.h"; path = "BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		BB43AF36AE07C0E3288BD2918973CEB8 /* BlocksKit+UIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+UIKit.h"; path = "BlocksKit/BlocksKit+UIKit.h"; sourceTree = "<group>"; };
+		BCAE86FB4A9F85B07446AE5685CD854E /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		BCDBE001DD712F7C3F7146F4BEA3D553 /* DRInputLimitManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRInputLimitManager-umbrella.h"; sourceTree = "<group>"; };
+		BD3273135A0D7ACFEAF76C5052D5527F /* DRSandboxManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DRSandboxManager.modulemap; sourceTree = "<group>"; };
+		BDF9024CF7915535C4F4F8F55D6450A4 /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+BlocksKit.h"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
+		BEA4664F3BD60C3B280FF886DAB9EFF4 /* Pods_DRProgressMaskView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRProgressMaskView_Tests.framework; path = "Pods-DRProgressMaskView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAAE47945284EB5659A067718C9B772 /* UICollectionView+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+DRExtension.h"; path = "DRCategories/Classes/UIKit/UICollectionView+DRExtension.h"; sourceTree = "<group>"; };
+		BF11E46B15973311C140E27A05951F22 /* NSArray+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+DRExtension.m"; path = "DRCategories/Classes/Foundation/NSArray+DRExtension.m"; sourceTree = "<group>"; };
+		BF9304368DDBF4B6C958A32E5FEC64C3 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		C10E45E0C9A45E81AB3CDB65409EA89A /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		C12ABCD80A5F91F89FA19FB0587BB3F1 /* A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2DynamicDelegate.m; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.m; sourceTree = "<group>"; };
+		C237FC39BAE696300647DA1A0EFB2C17 /* DRInputLimitManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRInputLimitManager-prefix.pch"; sourceTree = "<group>"; };
+		C281AA8B638DDD2D001FB29B456D98C8 /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+BlocksKit.m"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
+		C306D534FF31643F52435C5FF701E157 /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+BlocksKit.h"; path = "BlocksKit/Core/NSSet+BlocksKit.h"; sourceTree = "<group>"; };
+		C330EB5AB948372360514A4EA7E75E29 /* UIPopoverController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPopoverController+BlocksKit.m"; path = "BlocksKit/UIKit/UIPopoverController+BlocksKit.m"; sourceTree = "<group>"; };
+		C40A45347D34F227A9D53B95D6D875B0 /* DRSandboxManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRSandboxManager-umbrella.h"; sourceTree = "<group>"; };
 		C478B5FDA1F3A5FB521339242D59BB3B /* Pods-DRProgressMaskView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRProgressMaskView_Tests-dummy.m"; sourceTree = "<group>"; };
+		C4EE731FD37F0EC8F34BCB1786431669 /* DRColorProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorProgressView.m; path = DRProgressMaskView/Classes/DRColorProgressView.m; sourceTree = "<group>"; };
+		C57F63291043D5D6A398B8E0664A0C72 /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
 		C602EEDD6F77BDF9CDBE9FDD00C7E9DC /* Pods-DRProgressMaskView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRProgressMaskView_Example-umbrella.h"; sourceTree = "<group>"; };
-		C84F657D562D1A546E774187581E5142 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C828C8B9F719A5B9639ACF0D393BC669 /* DRCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB532238DD3C64E69A8DECC392E75C56 /* NSOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+BlocksKit.m"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		CB763A18540329E580B7257EE050B105 /* NSArray+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSArray+DRExtension.h"; sourceTree = "<group>"; };
+		CB79371CDE997FF71B7AFEC4B14A8861 /* UIFont+DRExtentsion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+DRExtentsion.h"; path = "DRCategories/Classes/UIKit/UIFont+DRExtentsion.h"; sourceTree = "<group>"; };
+		CC2EC159C5FB7494B3AF7E717FBB7F3C /* NSAttributedString+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+DRExtension.m"; path = "DRCategories/Classes/Foundation/NSAttributedString+DRExtension.m"; sourceTree = "<group>"; };
 		CD0CC2BB6861E985B81956E680BE4D62 /* Pods-DRProgressMaskView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRProgressMaskView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD97EF101EE3D6CF0F5FA03080AFA421 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
 		CE26686C7D30F82A58F35B3266ACADF2 /* Pods-DRProgressMaskView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRProgressMaskView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D066B0EE570515E2FB84DE424756ED63 /* DRProgressMaskView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRProgressMaskView-umbrella.h"; sourceTree = "<group>"; };
+		D059FC0BAC20B59917B8D41E948BE455 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		D08E2FC1BF8241C51CD409B1DDE9F191 /* DRProgressMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRProgressMaskView.m; path = DRProgressMaskView/Classes/DRProgressMaskView.m; sourceTree = "<group>"; };
+		D1A336269E9BB40E52BED3F03D86D4BF /* DRCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRCategories-dummy.m"; sourceTree = "<group>"; };
+		D1A36978DC7C8C0EF12674E3C5012E68 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		D3392AF263558684100C7F5C5541AC3D /* DRCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRCategories.framework; path = DRCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D494FC512428E5A249FBF3691B11BFFB /* CAAnimation+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+DRExtension.h"; path = "DRCategories/Classes/UIKit/CAAnimation+DRExtension.h"; sourceTree = "<group>"; };
+		D4A838668EE6318F420B0B40C0935FD8 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		D6C27ED6F69F17A6A099FC9DC70C4E89 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		D74E19EFEB1EC4C37C893C766AF42BD6 /* DRInputLimitManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRInputLimitManager.framework; path = DRInputLimitManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8101E8588ADBB3F54040A45D2F7A043 /* NSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2DynamicDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
 		D8348FDDE3B39969ACFB03A79FD51C1A /* Pods-DRProgressMaskView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRProgressMaskView_Tests-Info.plist"; sourceTree = "<group>"; };
+		D95EEDC9AE508CF4E94242BAA6AC6B45 /* NSInvocation+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+BlocksKit.m"; path = "BlocksKit/Core/NSInvocation+BlocksKit.m"; sourceTree = "<group>"; };
+		DBB7578C21BEB7CC8EE4E704ED1190C5 /* NSObject+BKBlockExecution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKBlockExecution.h"; path = "BlocksKit/Core/NSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
+		DC5CF0C945070D48E631F6E50A671E1B /* NSDate+DRExtension.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSDate+DRExtension.mm"; path = "DRCategories/Classes/Foundation/NSDate+DRExtension.mm"; sourceTree = "<group>"; };
+		DDFAC451F19183BE6552F4B1846D57B2 /* NSUserDefaults+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSUserDefaults+DRExtension.h"; sourceTree = "<group>"; };
+		DEAD06FCF4E041CB4F96C6D5403D5D8A /* NSUserDefaults+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+DRExtension.m"; path = "DRCategories/Classes/Foundation/NSUserDefaults+DRExtension.m"; sourceTree = "<group>"; };
+		DF6808D18C04079382DC3EE3749638C5 /* UIImage+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DRExtension.m"; path = "DRCategories/Classes/UIKit/UIImage+DRExtension.m"; sourceTree = "<group>"; };
+		E0F4BCA5865E6293F95188271B46EE67 /* DRSandBoxManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRSandBoxManager.h; path = DRSandboxManager/Classes/DRSandBoxManager.h; sourceTree = "<group>"; };
+		E137492E6B6BFB4BE7469749AE7007F2 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		E20A5A7870BB6856CEC962ED0E24DC70 /* BlocksKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlocksKit.xcconfig; sourceTree = "<group>"; };
+		E21F56ADDA06AA1D3639F418C043B98A /* CAAnimation+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+DRExtension.m"; path = "DRCategories/Classes/UIKit/CAAnimation+DRExtension.m"; sourceTree = "<group>"; };
+		E2C59DC7C0A5F573B17CAD14700046AD /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		E2C79B92386D319F12D9477C9E79F0FC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		E3907875C7A83B4FA8C7EE45E18187E0 /* Pods-DRProgressMaskView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRProgressMaskView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1F16BF05C84BDD3DB2D8ECDE32BA88F /* DRProgressMaskView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRProgressMaskView-prefix.pch"; sourceTree = "<group>"; };
-		F56A30EB4AD7FC2C52C9000D7C112D5C /* DRProgressMaskView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRProgressMaskView-dummy.m"; sourceTree = "<group>"; };
+		E4AF443EDDA7C169E45FDC99CA989F0C /* DRInputLimitManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRInputLimitManager.xcconfig; sourceTree = "<group>"; };
+		E4FAFCCDC79E54C6DE678240498402B4 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F6157EE98E1F20033BE7095FA05FB5 /* NSString+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DRExtension.m"; path = "DRCategories/Classes/Foundation/NSString+DRExtension.m"; sourceTree = "<group>"; };
+		E787C12734EA2FD8876646CEB8717661 /* DRSandboxManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRSandboxManager.xcconfig; sourceTree = "<group>"; };
+		E7C6FA5701A92DB2A1E576CB40A68375 /* NSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2BlockDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
+		E9176D9CAA4E955371834CE8CBE2EAE4 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		EAC6F74FEE8B61F7B99972BBB611C03B /* BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlocksKit.h; path = BlocksKit/BlocksKit.h; sourceTree = "<group>"; };
+		ED1052ACACA98590256CDE847A4120E9 /* pop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "pop-Info.plist"; sourceTree = "<group>"; };
+		EEB8AEB700AC4A042641CEBBD4B4BFEB /* NSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2BlockDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
+		EEF1E81B6C59FB63727D1DE06D52D0F8 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		EEF588BF7C0D17CA1504F4F43D41CE18 /* DRSandboxManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRSandboxManager.framework; path = DRSandboxManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C32156949FEE9D3EF720E4E6D5AD92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F22F1FFC4DA20982878A5D2F68FE4776 /* NSObject+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSObject+DRExtension.h"; sourceTree = "<group>"; };
+		F462D1B26FFFC777D52B528B49B34EB4 /* NSObject+BKBlockExecution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKBlockExecution.m"; path = "BlocksKit/Core/NSObject+BKBlockExecution.m"; sourceTree = "<group>"; };
+		F647751CF9819E9DE2DDA9D8D311D920 /* DRMacroDefines.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRMacroDefines.xcconfig; sourceTree = "<group>"; };
+		F65E54C97BEC1516002411207F227ECE /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		F72D9D018EB252D95244FB972CF49542 /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+BlocksKit.m"; path = "BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
+		F74E8B1C050F38E11FB6639DD7451046 /* UIImagePickerController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+BlocksKit.h"; path = "BlocksKit/UIKit/UIImagePickerController+BlocksKit.h"; sourceTree = "<group>"; };
+		F7F0217A18BFA71BE4FDDAE2097E1CE1 /* NSDate+DRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DRExtension.h"; path = "DRCategories/Classes/Foundation/NSDate+DRExtension.h"; sourceTree = "<group>"; };
+		F91AECE363A15A169E8463B2DFB8892F /* UITextField+DRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+DRExtension.m"; path = "DRCategories/Classes/UIKit/UITextField+DRExtension.m"; sourceTree = "<group>"; };
 		F9F3F13B605268FEB501D77497FDFB23 /* Pods-DRProgressMaskView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRProgressMaskView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FCB11B4D176EC4AC9D9C9B37E89A5859 /* BlocksKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlocksKit-Info.plist"; sourceTree = "<group>"; };
+		FCFA6AC2F3F4DF1130D7B50F60DE8FA2 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4F3365FD94CA5B8278EDF10197F3F5 /* Pods-DRProgressMaskView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRProgressMaskView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FE57C96343FFAF479324E1DC3C2C240D /* DRInputLimitManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRInputLimitManager-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,41 +586,224 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62DA8A206B7EB19A9FD5515C131D04E1 /* Frameworks */ = {
+		3ACD7AE14CDCC5F46199F32B2A77418D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D24042CCA46EC6D76F4CA26CFE33EF3 /* Foundation.framework in Frameworks */,
+				D4932381A6B9AE41430F39AA41B61C5C /* BlocksKit.framework in Frameworks */,
+				1E784BDC05D45451232EA9DC0882544A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2FF6B7E531115F3B435A118800CA87A /* Frameworks */ = {
+		5BE480AFDF6D91A4D31C8500BF6ED952 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0399D84D4635CF2C4E92616AFE6E2C84 /* Foundation.framework in Frameworks */,
+				2510E294B07BC562FE195BC5487332C9 /* DRCategories.framework in Frameworks */,
+				A1C43312D5FC1EF9FC8EB61BA6F75C7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7120F47C42DF32F263B804339FEC811D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C77ADD4DC42E47BC4A1C623567D9C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66739AC4415E8ED85332E591EDC5B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AC91393AD1F11EA29C42F0FD41A431 /* DRInputLimitManager.framework in Frameworks */,
+				EA273C129BE5046E0024FCED192B5FF8 /* DRSandboxManager.framework in Frameworks */,
+				049FF5895D3C1C9734041C4DAEABBFEA /* Foundation.framework in Frameworks */,
+				51D93DB584999A7D0DF3C38E5DA6CA30 /* pop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF67D7A1CB31B3A903F9F76DD3A34E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAACDD4EE174FA6B605A7184D8EDE31 /* Foundation.framework in Frameworks */,
+				B42485D47B351B2699E4A8FD6252F1DA /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76F570FFA7D4D726286B5CB9A01D5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84071D2AE52F7750FF7753E8C3F81E97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F251D035DD5A38F3900F812005BFDCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283026B984A280CFC67A376DEC78B2C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08B0833C5C9DE68FAE5067CA470915CE /* Development Pods */ = {
+		0E5063807C097FEF30E73EBE02475795 /* DRInputLimitManager */ = {
 			isa = PBXGroup;
 			children = (
-				BE20A781FD9A7353146002902BE1BC80 /* DRProgressMaskView */,
+				638D49212425300A853F6EFCAE01644B /* DRInputLimitManager.h */,
+				1F32DF221BA0B651AFEAB8F65133472A /* DRInputLimitManager.m */,
+				288924E59B864BAD105235B99B8E31FE /* Support Files */,
+			);
+			name = DRInputLimitManager;
+			path = DRInputLimitManager;
+			sourceTree = "<group>";
+		};
+		14E0CC7A9DE7C7BF48CAD6039350AC97 /* DRSandboxManager */ = {
+			isa = PBXGroup;
+			children = (
+				E0F4BCA5865E6293F95188271B46EE67 /* DRSandBoxManager.h */,
+				52EAC41988D65F2B8F3C14D584C06CA3 /* DRSandBoxManager.m */,
+				CFD2EB83F9B895BED7A8EDC82B723274 /* Support Files */,
+			);
+			name = DRSandboxManager;
+			path = DRSandboxManager;
+			sourceTree = "<group>";
+		};
+		288924E59B864BAD105235B99B8E31FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8628584BE8240C6DA3BA07F04F843 /* DRInputLimitManager.modulemap */,
+				E4AF443EDDA7C169E45FDC99CA989F0C /* DRInputLimitManager.xcconfig */,
+				FE57C96343FFAF479324E1DC3C2C240D /* DRInputLimitManager-dummy.m */,
+				82BED43BE542FE9A403DE71925DA4B80 /* DRInputLimitManager-Info.plist */,
+				C237FC39BAE696300647DA1A0EFB2C17 /* DRInputLimitManager-prefix.pch */,
+				BCDBE001DD712F7C3F7146F4BEA3D553 /* DRInputLimitManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DRInputLimitManager";
+			sourceTree = "<group>";
+		};
+		2C46CD765B7A2B424E3397FB33CFCAED /* DynamicDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				81727E4F04941A7B65449CAA011A91C2 /* A2BlockInvocation.h */,
+				5FACD80367AC14768BFA7361D8D116A0 /* A2BlockInvocation.m */,
+				268366051529942EF85A7B3DA71091CF /* A2DynamicDelegate.h */,
+				C12ABCD80A5F91F89FA19FB0587BB3F1 /* A2DynamicDelegate.m */,
+				115CBF8EEFCB280C5A46DEBCF0DDCEEE /* NSCache+BlocksKit.h */,
+				05EA44FCA68524FF36ECB5273814B920 /* NSCache+BlocksKit.m */,
+				E7C6FA5701A92DB2A1E576CB40A68375 /* NSObject+A2BlockDelegate.h */,
+				EEB8AEB700AC4A042641CEBBD4B4BFEB /* NSObject+A2BlockDelegate.m */,
+				D8101E8588ADBB3F54040A45D2F7A043 /* NSObject+A2DynamicDelegate.h */,
+				02339FC1E6C68AE581A9CB0887B51032 /* NSObject+A2DynamicDelegate.m */,
+				BDF9024CF7915535C4F4F8F55D6450A4 /* NSURLConnection+BlocksKit.h */,
+				64B336A8B2F3666A1EDCCE6789368FA9 /* NSURLConnection+BlocksKit.m */,
+			);
+			name = DynamicDelegate;
+			sourceTree = "<group>";
+		};
+		3227A85C313C357ABB2C9BA413AAD3C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A75F1D32D4FCAB319361D770D383F03 /* DRProgressMaskView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0A39DE96188673CED905648C1A653366 /* Products */ = {
+		33E21C4A21A91813CF70FF8F768858D5 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				6066A08269486ACCC1428003AF4F5DFB /* DRProgressMaskView.framework */,
-				19FFFD224F2B3C39634105A116C3C82A /* Pods_DRProgressMaskView_Example.framework */,
-				12FA38F359435F1578FF8D14C1DCFBDC /* Pods_DRProgressMaskView_Tests.framework */,
+				BB43AF36AE07C0E3288BD2918973CEB8 /* BlocksKit+UIKit.h */,
+				00DC53C3E5B5291894A59C71CA3A2249 /* UIActionSheet+BlocksKit.h */,
+				A06110594A2BCE3FAF9E4193F83E8300 /* UIActionSheet+BlocksKit.m */,
+				489EF91F3DB15D41AF12CD877AB99947 /* UIAlertView+BlocksKit.h */,
+				9BBD546DDDCE7F355902AFFDA2031D9D /* UIAlertView+BlocksKit.m */,
+				BAC2E95C454AA31BCB4BCF8B19F4E44B /* UIBarButtonItem+BlocksKit.h */,
+				F72D9D018EB252D95244FB972CF49542 /* UIBarButtonItem+BlocksKit.m */,
+				742B3933E9B2A50A1B50B174CC3994B9 /* UIControl+BlocksKit.h */,
+				7F8EEF793C6DAE4FE3C8FC001C2A42F2 /* UIControl+BlocksKit.m */,
+				17A12FCB1A1A7AA90F3C5333EE0B5B1F /* UIGestureRecognizer+BlocksKit.h */,
+				C281AA8B638DDD2D001FB29B456D98C8 /* UIGestureRecognizer+BlocksKit.m */,
+				F74E8B1C050F38E11FB6639DD7451046 /* UIImagePickerController+BlocksKit.h */,
+				3E020B7BFCC9F4FAD9D11BA8167664D9 /* UIImagePickerController+BlocksKit.m */,
+				B7BD914B9B8987F5D79A58E90689E02B /* UIPopoverController+BlocksKit.h */,
+				C330EB5AB948372360514A4EA7E75E29 /* UIPopoverController+BlocksKit.m */,
+				4AD69C65BFA244055ADB39C8C6A622B7 /* UITextField+BlocksKit.h */,
+				B1AD59605CA423D7E45ED690A06B57E0 /* UITextField+BlocksKit.m */,
+				6F08D0286E9855CB83BADCEFA782EF48 /* UIView+BlocksKit.h */,
+				2CFD32883A2A499A0674D5F6FD269138 /* UIView+BlocksKit.m */,
+				34696F29A968C225333251E6E11EB36C /* UIWebView+BlocksKit.h */,
+				76406C889D95B4BB3994D4E09B799896 /* UIWebView+BlocksKit.m */,
 			);
-			name = Products;
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		40BF4A86131D80033FFE7DFE431D3323 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F647751CF9819E9DE2DDA9D8D311D920 /* DRMacroDefines.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DRMacroDefines";
+			sourceTree = "<group>";
+		};
+		5A6FF36E21DB0D6AF078EACD862B8C1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48CEC549E3A2981E97F2B5E37AC6C264 /* BlocksKit.framework */,
+				C828C8B9F719A5B9639ACF0D393BC669 /* DRCategories.framework */,
+				755215ADDAEFF965D59AFAA8C14DD812 /* DRInputLimitManager.framework */,
+				3A7D44BEFEECE258A6E4B2B74518F708 /* DRSandboxManager.framework */,
+				E4FAFCCDC79E54C6DE678240498402B4 /* pop.framework */,
+				D894664EE72B7A101B331E4470C88695 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A75F1D32D4FCAB319361D770D383F03 /* DRProgressMaskView */ = {
+			isa = PBXGroup;
+			children = (
+				0D7BECC111A490C1B6159E440A7E3019 /* DRColorProgressView.h */,
+				C4EE731FD37F0EC8F34BCB1786431669 /* DRColorProgressView.m */,
+				B4B2DED125B6D7AB6A0AF3129FC8192D /* DRProgressMaskView.h */,
+				D08E2FC1BF8241C51CD409B1DDE9F191 /* DRProgressMaskView.m */,
+				865440073D6F04AA34F9926E44A256EE /* Pod */,
+				BB3EA59B92508B7C4E3F483E57A3B732 /* Support Files */,
+			);
+			name = DRProgressMaskView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5A8A6EF70CA0C272F79FCE7A048E7EDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F498CCD3B0AA9FEB56134EAC6A9E5B /* BlocksKit.modulemap */,
+				E20A5A7870BB6856CEC962ED0E24DC70 /* BlocksKit.xcconfig */,
+				5A6E3C199B300A4AE3C8DE3AD448B5FD /* BlocksKit-dummy.m */,
+				FCB11B4D176EC4AC9D9C9B37E89A5859 /* BlocksKit-Info.plist */,
+				40B2F6D234B3C3AD347F54B487A5DF60 /* BlocksKit-prefix.pch */,
+				98D0F22A6A02E9F0EE6B6BA80817DC78 /* BlocksKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlocksKit";
+			sourceTree = "<group>";
+		};
+		610E8847D058E06C14B76F52A00599E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B832E42CB753834EC98A93FC09E85A49 /* pop.modulemap */,
+				305ED9D056E450405E040F0642DABC2B /* pop.xcconfig */,
+				099F786FFA62056085706D83AE523871 /* pop-dummy.m */,
+				ED1052ACACA98590256CDE847A4120E9 /* pop-Info.plist */,
+				08909DB91EE72054F3EAAF40BC1F7764 /* pop-prefix.pch */,
+				0F931EDE39A4237D9A8BE5B630F1803A /* pop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
 			sourceTree = "<group>";
 		};
 		656665DE5796548BEBAAFA87ECBE5A47 /* Pods-DRProgressMaskView_Tests */ = {
@@ -133,18 +822,17 @@
 			path = "Target Support Files/Pods-DRProgressMaskView_Tests";
 			sourceTree = "<group>";
 		};
-		74F742188D413260DE5072F7E97C4FC2 /* Support Files */ = {
+		70C1CF04A0365CDCCED58FC3043EA43F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D6D69DD425A31D59B82AB83A0F75AAB /* DRProgressMaskView.modulemap */,
-				B12F07D071D41D6078466EBA6FCC38A2 /* DRProgressMaskView.xcconfig */,
-				F56A30EB4AD7FC2C52C9000D7C112D5C /* DRProgressMaskView-dummy.m */,
-				4DC831FDC641F7C4C4120A2CA52DDC95 /* DRProgressMaskView-Info.plist */,
-				F1F16BF05C84BDD3DB2D8ECDE32BA88F /* DRProgressMaskView-prefix.pch */,
-				D066B0EE570515E2FB84DE424756ED63 /* DRProgressMaskView-umbrella.h */,
+				F4F932E57D6D8ACE8839AF51C52D3AC1 /* BlocksKit */,
+				B5F1C003120180E76208606E25369CFF /* DRCategories */,
+				0E5063807C097FEF30E73EBE02475795 /* DRInputLimitManager */,
+				D6604488BDD4290D5F193BD31CE47AC3 /* DRMacroDefines */,
+				14E0CC7A9DE7C7BF48CAD6039350AC97 /* DRSandboxManager */,
+				E9A155179F1C5563C18563C526498E38 /* pop */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DRProgressMaskView";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7C694DD126D91B34CA1D75ABD3D53DE3 /* Targets Support Files */ = {
@@ -156,33 +844,108 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BE20A781FD9A7353146002902BE1BC80 /* DRProgressMaskView */ = {
+		865440073D6F04AA34F9926E44A256EE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				757C5E74ECB3886508279133C211EC30 /* ReplaceMe.m */,
-				BEC2F1394A7CD7CC4475855D6F4CD5D5 /* Pod */,
-				74F742188D413260DE5072F7E97C4FC2 /* Support Files */,
-			);
-			name = DRProgressMaskView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BEC2F1394A7CD7CC4475855D6F4CD5D5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AB8513DFB6A648C9340F7A577FD83827 /* DRProgressMaskView.podspec */,
-				C84F657D562D1A546E774187581E5142 /* LICENSE */,
-				B8218BD10DF18C3F280D9C30DFAB27D2 /* README.md */,
+				28A359CA07A8698B61109EF449DC70E4 /* DRProgressMaskView.podspec */,
+				F0C32156949FEE9D3EF720E4E6D5AD92 /* LICENSE */,
+				23BDCA23769823FDE241CE699D8DECC9 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		B5F1C003120180E76208606E25369CFF /* DRCategories */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				D494FC512428E5A249FBF3691B11BFFB /* CAAnimation+DRExtension.h */,
+				E21F56ADDA06AA1D3639F418C043B98A /* CAAnimation+DRExtension.m */,
+				68FE250BBFDC079C14A36AD92846902C /* CALayer+DRExtension.h */,
+				9A0DC5AF8EC9410528FCA7D5E1D15B64 /* CALayer+DRExtension.m */,
+				CB763A18540329E580B7257EE050B105 /* NSArray+DRExtension.h */,
+				BF11E46B15973311C140E27A05951F22 /* NSArray+DRExtension.m */,
+				737431175A2F0883AFB0061D1725E4DE /* NSAttributedString+DRExtension.h */,
+				CC2EC159C5FB7494B3AF7E717FBB7F3C /* NSAttributedString+DRExtension.m */,
+				F7F0217A18BFA71BE4FDDAE2097E1CE1 /* NSDate+DRExtension.h */,
+				DC5CF0C945070D48E631F6E50A671E1B /* NSDate+DRExtension.mm */,
+				756773B1FF67E47D63340388290DBEC1 /* NSDictionary+DRExtension.h */,
+				3A01B6BFEDB455FA27804B89729C5D16 /* NSDictionary+DRExtension.m */,
+				3DA0600B72CC0A437ADFA6E9C6CCF83C /* NSMutableSet+DRExtension.h */,
+				04C105AFD15F6FA8E1482A9E47DE422B /* NSMutableSet+DRExtension.m */,
+				14302691E9AC47AA5014460E25BB5FFA /* NSNumber+DRExtension.h */,
+				996146C4133EADAE5DF63C5B23F750C0 /* NSNumber+DRExtension.m */,
+				F22F1FFC4DA20982878A5D2F68FE4776 /* NSObject+DRExtension.h */,
+				B5EF7B7B74496A81B84B213C55C9DC43 /* NSObject+DRExtension.m */,
+				110CA54D8A99F45D9313597B3314302C /* NSString+DRExtension.h */,
+				E5F6157EE98E1F20033BE7095FA05FB5 /* NSString+DRExtension.m */,
+				DDFAC451F19183BE6552F4B1846D57B2 /* NSUserDefaults+DRExtension.h */,
+				DEAD06FCF4E041CB4F96C6D5403D5D8A /* NSUserDefaults+DRExtension.m */,
+				8B4436C74485303A58A5DEB2A1BC5655 /* UIBarButtonItem+DRExtension.h */,
+				4F0A815BE1282EE514C5CE053303D1DA /* UIBarButtonItem+DRExtension.m */,
+				BEAAE47945284EB5659A067718C9B772 /* UICollectionView+DRExtension.h */,
+				5B12BB12756669C7899CFB51AA5D4DA3 /* UICollectionView+DRExtension.m */,
+				CB79371CDE997FF71B7AFEC4B14A8861 /* UIFont+DRExtentsion.h */,
+				0A60B17528CA1C6865F9606B0E698B68 /* UIFont+DRExtentsion.m */,
+				9B490B47B6757213231A75C39011CCE0 /* UIImage+DRExtension.h */,
+				DF6808D18C04079382DC3EE3749638C5 /* UIImage+DRExtension.m */,
+				1BCEEF3A2625687B0B9C3F293DF61DD7 /* UINavigationBar+DRExtension.h */,
+				3DC10FE8E3CAD1F5A20F1AB38F73B75E /* UINavigationBar+DRExtension.m */,
+				6C6BC0769E4B023BB8250BF552172AEC /* UIScrollView+DRExtension.h */,
+				7999F7E4120EAC528F590B9161051649 /* UIScrollView+DRExtension.m */,
+				4D571C22B37174A75FD06BED97718AB2 /* UITabBar+DRExtension.h */,
+				043A070F7B9D61045A9CCE0BA70F7DA3 /* UITabBar+DRExtension.m */,
+				528DBBF49C837F3315A471177DE6DDA5 /* UITableView+DRExtension.h */,
+				013D0575122FA0BAF3564F6AD7B65D47 /* UITableView+DRExtension.m */,
+				6B9490B1F2D458474968AADE3D7F4CC9 /* UITextField+DRExtension.h */,
+				F91AECE363A15A169E8463B2DFB8892F /* UITextField+DRExtension.m */,
+				37D41561FE1720EBF311B8B9DFC10B39 /* UITextView+DRExtension.h */,
+				1000BBD8BE47D8EE75C6339500ED13FD /* UITextView+DRExtension.m */,
+				B2000263E1DB2FC297C0B439B3975B80 /* UIView+DRExtension.h */,
+				59058AFC9F167F4D36329526D20F3B2F /* UIView+DRExtension.m */,
+				C8E81703466CF73DD68E3B144025E0CE /* Support Files */,
 			);
-			name = iOS;
+			name = DRCategories;
+			path = DRCategories;
+			sourceTree = "<group>";
+		};
+		BB3EA59B92508B7C4E3F483E57A3B732 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E6E2BF5F86E77275AC564B8FC6A313 /* DRProgressMaskView.modulemap */,
+				9DE324D1A42F295146941C727DF31F44 /* DRProgressMaskView.xcconfig */,
+				B22792688920D2C1DB41624B7CC5BA6C /* DRProgressMaskView-dummy.m */,
+				6D91BF75C217A35EEAEAD6A3EDB18168 /* DRProgressMaskView-Info.plist */,
+				653CE7FEC7513B93223EA530B28A0D8A /* DRProgressMaskView-prefix.pch */,
+				787AE6D711B21C6E4222B3B8C8159BBB /* DRProgressMaskView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DRProgressMaskView";
+			sourceTree = "<group>";
+		};
+		C1C1DEF370F48FC6FAE3CCDC58A9B156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BB59CA63B289BF2F59354C401675DA /* BlocksKit.framework */,
+				D3392AF263558684100C7F5C5541AC3D /* DRCategories.framework */,
+				D74E19EFEB1EC4C37C893C766AF42BD6 /* DRInputLimitManager.framework */,
+				B90F5C51A40A9B5128D8D250CD07BAF4 /* DRProgressMaskView.framework */,
+				EEF588BF7C0D17CA1504F4F43D41CE18 /* DRSandboxManager.framework */,
+				0C46783B788E8E3FA9174EB890F698FF /* Pods_DRProgressMaskView_Example.framework */,
+				BEA4664F3BD60C3B280FF886DAB9EFF4 /* Pods_DRProgressMaskView_Tests.framework */,
+				FCFA6AC2F3F4DF1130D7B50F60DE8FA2 /* pop.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C544F3F8FCA8D3439721281F5634FCB5 /* MessageUI */ = {
+			isa = PBXGroup;
+			children = (
+				5CF07DF276DC0C4C693FE3A34F427C23 /* BlocksKit+MessageUI.h */,
+				527CB61F991AF1884D1F4181BCB01C74 /* MFMailComposeViewController+BlocksKit.h */,
+				7EEB51D898B3DBD6A6E799242E62D3B8 /* MFMailComposeViewController+BlocksKit.m */,
+				B0573E83F3E959B2FAC88DD23CB0A2C0 /* MFMessageComposeViewController+BlocksKit.h */,
+				20996498D809D3B679CC343438A5BCB9 /* MFMessageComposeViewController+BlocksKit.m */,
+			);
+			name = MessageUI;
 			sourceTree = "<group>";
 		};
 		C6A43E5254E2C125A239B017F47255BC /* Pods-DRProgressMaskView_Example */ = {
@@ -202,28 +965,199 @@
 			path = "Target Support Files/Pods-DRProgressMaskView_Example";
 			sourceTree = "<group>";
 		};
+		C8E81703466CF73DD68E3B144025E0CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BBCE18F945EBA0D24E4C63BE9570815 /* DRCategories.modulemap */,
+				6AD6941AAF379FC0ED674E424DA888A9 /* DRCategories.xcconfig */,
+				D1A336269E9BB40E52BED3F03D86D4BF /* DRCategories-dummy.m */,
+				27AC65142104135F7E9DFB5EC62AB665 /* DRCategories-Info.plist */,
+				79E2C9DFAA4D10C317BA59DA41DE71EC /* DRCategories-prefix.pch */,
+				A02DBC370AB1C10553E9EE20BC417064 /* DRCategories-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DRCategories";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				08B0833C5C9DE68FAE5067CA470915CE /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0A39DE96188673CED905648C1A653366 /* Products */,
+				3227A85C313C357ABB2C9BA413AAD3C5 /* Development Pods */,
+				5A6FF36E21DB0D6AF078EACD862B8C1B /* Frameworks */,
+				70C1CF04A0365CDCCED58FC3043EA43F /* Pods */,
+				C1C1DEF370F48FC6FAE3CCDC58A9B156 /* Products */,
 				7C694DD126D91B34CA1D75ABD3D53DE3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		CFD2EB83F9B895BED7A8EDC82B723274 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				BD3273135A0D7ACFEAF76C5052D5527F /* DRSandboxManager.modulemap */,
+				E787C12734EA2FD8876646CEB8717661 /* DRSandboxManager.xcconfig */,
+				ABA092D4105F6C49E212A124BFCD26EA /* DRSandboxManager-dummy.m */,
+				414076209947D3962CC5104082FF1CEF /* DRSandboxManager-Info.plist */,
+				0D7F1C2590FB7BEFB416A4AEB782C629 /* DRSandboxManager-prefix.pch */,
+				C40A45347D34F227A9D53B95D6D875B0 /* DRSandboxManager-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/DRSandboxManager";
+			sourceTree = "<group>";
+		};
+		D6604488BDD4290D5F193BD31CE47AC3 /* DRMacroDefines */ = {
+			isa = PBXGroup;
+			children = (
+				3C92914F5CE87F1F10FD83BE251C6DE4 /* DRMacroDefines.h */,
+				40BF4A86131D80033FFE7DFE431D3323 /* Support Files */,
+			);
+			name = DRMacroDefines;
+			path = DRMacroDefines;
+			sourceTree = "<group>";
+		};
+		D894664EE72B7A101B331E4470C88695 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC24D3785A4191EA142C3AA5D74034 /* Foundation.framework */,
+				E2C79B92386D319F12D9477C9E79F0FC /* MessageUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9A155179F1C5563C18563C526498E38 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				B86C0403E7BA4F2133C64D09A50A71BB /* FloatConversion.h */,
+				E2C59DC7C0A5F573B17CAD14700046AD /* POP.h */,
+				09707C59767C9521362D7386D1D05031 /* POPAction.h */,
+				25BD3E4816E3A45BB6837F405F2BEDB4 /* POPAnimatableProperty.h */,
+				EEF1E81B6C59FB63727D1DE06D52D0F8 /* POPAnimatableProperty.mm */,
+				8C8F00344A827DB0F1685C72178B6BFE /* POPAnimatablePropertyTypes.h */,
+				37E99B5AD892C31F855CBE4177CED078 /* POPAnimation.h */,
+				66F98FEDEF8BD7CE2D93F9C9549510BB /* POPAnimation.mm */,
+				D1A36978DC7C8C0EF12674E3C5012E68 /* POPAnimationEvent.h */,
+				D6C27ED6F69F17A6A099FC9DC70C4E89 /* POPAnimationEvent.mm */,
+				36ECDCA5D8E30DE43127A86EF83F4E68 /* POPAnimationEventInternal.h */,
+				081ED3B799DE38EABBFDF7005C9E6807 /* POPAnimationExtras.h */,
+				39D102BF83251AE131D84B58CE56C405 /* POPAnimationExtras.mm */,
+				D059FC0BAC20B59917B8D41E948BE455 /* POPAnimationInternal.h */,
+				3202D66E2F1A1E33B08AA5520D618492 /* POPAnimationPrivate.h */,
+				87FBE53BA7D0421610B93475F27860EB /* POPAnimationRuntime.h */,
+				08AC8C9A59DEE9FB1774C3F0A0960917 /* POPAnimationRuntime.mm */,
+				AE21239D6B6144EECDDDE07B9EAF4B02 /* POPAnimationTracer.h */,
+				BF9304368DDBF4B6C958A32E5FEC64C3 /* POPAnimationTracer.mm */,
+				B8095C15EA9C8B8A2F2F0B6683D27932 /* POPAnimationTracerInternal.h */,
+				F65E54C97BEC1516002411207F227ECE /* POPAnimator.h */,
+				9E7DCE84285B6AB7F2837C647B4C9542 /* POPAnimator.mm */,
+				45BD632BE0CD315AD92F54D22BD1BBF1 /* POPAnimatorPrivate.h */,
+				8857F203746055E8BF93C3C1CBF51286 /* POPBasicAnimation.h */,
+				2EC3CA1C0F8736F2B3E37D9D18CB8882 /* POPBasicAnimation.mm */,
+				0A5E81D276ACD64B94EE9A8C68F3B4B3 /* POPBasicAnimationInternal.h */,
+				4758F21B9DA7730968F0FF1EEFD7755C /* POPCGUtils.h */,
+				77BD4C5658E6917D0F2B853A26F1C746 /* POPCGUtils.mm */,
+				1C8BD1D2241565EF05A4203F4FC9174A /* POPCustomAnimation.h */,
+				C10E45E0C9A45E81AB3CDB65409EA89A /* POPCustomAnimation.mm */,
+				D4A838668EE6318F420B0B40C0935FD8 /* POPDecayAnimation.h */,
+				A0BABC4C0297B7893AB09C5B8B455A3E /* POPDecayAnimation.mm */,
+				7C4A6DAE3D883AA20C00295C2B9F3291 /* POPDecayAnimationInternal.h */,
+				17F5542287149E06861BDB9DE22C4B5B /* POPDefines.h */,
+				5760CA4392B4CAC3960F1A82BD87348B /* POPGeometry.h */,
+				AD8EB34E604A2C92062514A7B17D8A8A /* POPGeometry.mm */,
+				CD97EF101EE3D6CF0F5FA03080AFA421 /* POPLayerExtras.h */,
+				434EA70613155B7F63DAD04C31EE4297 /* POPLayerExtras.mm */,
+				336421F799FB82F962F1FC702F79ADD7 /* POPMath.h */,
+				AC53122C60F45DDB713F27540CFF5E70 /* POPMath.mm */,
+				42C5691150299F0EFD7AA5979B11AD57 /* POPPropertyAnimation.h */,
+				78B9310B6EFD2BB09630F6980341A186 /* POPPropertyAnimation.mm */,
+				8752923DC6EF5E18802F87C41FC0C666 /* POPPropertyAnimationInternal.h */,
+				647CA065496E4743704E67FE83DE7AE5 /* POPSpringAnimation.h */,
+				0445BAB5408412DCD571F91FC9B5CFDC /* POPSpringAnimation.mm */,
+				050DAEB8F0209820CBFE897E4091EF1C /* POPSpringAnimationInternal.h */,
+				2F39FF772E088E061F2587D211704801 /* POPSpringSolver.h */,
+				629A51AD7903C2E11F82905F24719C5C /* POPVector.h */,
+				32A278D1175A8886AA7E8D845FA2AF21 /* POPVector.mm */,
+				E9176D9CAA4E955371834CE8CBE2EAE4 /* TransformationMatrix.cpp */,
+				BCAE86FB4A9F85B07446AE5685CD854E /* TransformationMatrix.h */,
+				7F3A8B5A112404C6AE2157F63606D9C0 /* UnitBezier.h */,
+				610E8847D058E06C14B76F52A00599E5 /* Support Files */,
+			);
+			name = pop;
+			path = pop;
+			sourceTree = "<group>";
+		};
+		F4F932E57D6D8ACE8839AF51C52D3AC1 /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				FB721B8BC1C4A67920E8B3A3879A1F4F /* Core */,
+				2C46CD765B7A2B424E3397FB33CFCAED /* DynamicDelegate */,
+				C544F3F8FCA8D3439721281F5634FCB5 /* MessageUI */,
+				5A8A6EF70CA0C272F79FCE7A048E7EDF /* Support Files */,
+				33E21C4A21A91813CF70FF8F768858D5 /* UIKit */,
+			);
+			name = BlocksKit;
+			path = BlocksKit;
+			sourceTree = "<group>";
+		};
+		FB721B8BC1C4A67920E8B3A3879A1F4F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AFEC0F1E153C239A1D8C65F93DFEC563 /* BKMacros.h */,
+				EAC6F74FEE8B61F7B99972BBB611C03B /* BlocksKit.h */,
+				69C3277F391CCB09C3CC5AD5000A60F7 /* NSArray+BlocksKit.h */,
+				102F8E339F9FE9DFEF5237BE7073E1B2 /* NSArray+BlocksKit.m */,
+				99706A3F98C88313FF94FB2440C869E8 /* NSDictionary+BlocksKit.h */,
+				9767ACA3F5027738562370DCCA9E26A9 /* NSDictionary+BlocksKit.m */,
+				E137492E6B6BFB4BE7469749AE7007F2 /* NSIndexSet+BlocksKit.h */,
+				67C89480FE8FCF2E00C5F85593544938 /* NSIndexSet+BlocksKit.m */,
+				3F2EE5CB1A89E124F844A7698736C6E6 /* NSInvocation+BlocksKit.h */,
+				D95EEDC9AE508CF4E94242BAA6AC6B45 /* NSInvocation+BlocksKit.m */,
+				616BC22E3F62846290079912FDABADD9 /* NSMutableArray+BlocksKit.h */,
+				8B1B6F81699E6BFE406D5658DBA79941 /* NSMutableArray+BlocksKit.m */,
+				02227BDCB1BF3C81DBC2D2497E777E37 /* NSMutableDictionary+BlocksKit.h */,
+				77011F4648893BC6D371F733CB0F3A03 /* NSMutableDictionary+BlocksKit.m */,
+				288D569FB86D878DB5B7C6B552AA59CB /* NSMutableIndexSet+BlocksKit.h */,
+				C57F63291043D5D6A398B8E0664A0C72 /* NSMutableIndexSet+BlocksKit.m */,
+				5698CDF79BC3577D41E567AB949822E3 /* NSMutableOrderedSet+BlocksKit.h */,
+				7ED79D504B08F0A86B7A8BEF9A0A1AE9 /* NSMutableOrderedSet+BlocksKit.m */,
+				3A7AD3B83F7A50AA385A951F8D6DD22E /* NSMutableSet+BlocksKit.h */,
+				7A78903BB587EFEA175AE94C091D6346 /* NSMutableSet+BlocksKit.m */,
+				891B7DFD9914E5B8D2E74E574B1864F1 /* NSObject+BKAssociatedObjects.h */,
+				AD85D9A68EBF9C43A9A4CE6AF24A1C2A /* NSObject+BKAssociatedObjects.m */,
+				DBB7578C21BEB7CC8EE4E704ED1190C5 /* NSObject+BKBlockExecution.h */,
+				F462D1B26FFFC777D52B528B49B34EB4 /* NSObject+BKBlockExecution.m */,
+				6FD8C93EF50D0FD9184F8724289D7F2A /* NSObject+BKBlockObservation.h */,
+				1F7F18613D2809FE36E5FD3EFEEB1F84 /* NSObject+BKBlockObservation.m */,
+				7D82E3A79D685353BEF43840726512B2 /* NSOrderedSet+BlocksKit.h */,
+				CB532238DD3C64E69A8DECC392E75C56 /* NSOrderedSet+BlocksKit.m */,
+				C306D534FF31643F52435C5FF701E157 /* NSSet+BlocksKit.h */,
+				4A1D892AE3F1308FB712E0E17053841F /* NSSet+BlocksKit.m */,
+				48E0F9926DECD55C2063530AFABFD2CB /* NSTimer+BlocksKit.h */,
+				4EE56511AD2339FAA7D424B6740E079A /* NSTimer+BlocksKit.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		05EAB8352F753C3B4BC2D31C1BD4AEF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C922C322F117F312D0A425306CC216A /* DRSandboxManager-umbrella.h in Headers */,
+				102B6E8F42247B82014049679CF57BA6 /* DRSandBoxManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE51C40A04751BB4F16A5FFA4249CAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F73EB47E95DBF91D98EE27DC8D42A9A /* DRInputLimitManager-umbrella.h in Headers */,
+				4BBC5067E67ECAFC77626465DC5A9C60 /* DRInputLimitManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		306A018A59ACA893C10ED004C83643EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,41 +1166,179 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		850532AF23074FA0998ABD4E432DB80E /* Headers */ = {
+		5240C2FD6FC14D57D98F4E06680E06D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B22950A4B736AC44CDD77906699E5BE /* Pods-DRProgressMaskView_Example-umbrella.h in Headers */,
+				AA9BBAD835003C253A859CDDDB9529E1 /* A2BlockInvocation.h in Headers */,
+				52A26C0734723D8CE5A2348788683B73 /* A2DynamicDelegate.h in Headers */,
+				C4385C0B6CB92D687F38133693AE001E /* BKMacros.h in Headers */,
+				17455071916534C0E64977A6FA3AF865 /* BlocksKit+MessageUI.h in Headers */,
+				60883BB5639E14AFB55092B75EB9BD20 /* BlocksKit+UIKit.h in Headers */,
+				2DE92413316CEF9FACA2B57687BA747C /* BlocksKit-umbrella.h in Headers */,
+				87F7C5F2E20E7E150D9413971223B8FB /* BlocksKit.h in Headers */,
+				F85BB544CF72CAB536355CD62C646781 /* MFMailComposeViewController+BlocksKit.h in Headers */,
+				5B28517C07CF9D8449B6C8D73DAE43F8 /* MFMessageComposeViewController+BlocksKit.h in Headers */,
+				10FE8DDE0DF0EB34944C1E21087ACB00 /* NSArray+BlocksKit.h in Headers */,
+				347EA0966B80203DBFAFB81B2999D144 /* NSCache+BlocksKit.h in Headers */,
+				EA22FE1004A9B46323EE5D1FCFFE9979 /* NSDictionary+BlocksKit.h in Headers */,
+				D32FDA4F528D1D516E93B9FEAA5035F0 /* NSIndexSet+BlocksKit.h in Headers */,
+				9A5AB898AC65B7CCA3A5CBE210116431 /* NSInvocation+BlocksKit.h in Headers */,
+				B4AF9C0EDF6BD591A3B13E56D3120BA5 /* NSMutableArray+BlocksKit.h in Headers */,
+				137236FC8D7AF615E340DB76FBB24583 /* NSMutableDictionary+BlocksKit.h in Headers */,
+				2C5971C4766E67477D2D8ECC950B5095 /* NSMutableIndexSet+BlocksKit.h in Headers */,
+				114ED4A2C1F679C2B0389E69839491F9 /* NSMutableOrderedSet+BlocksKit.h in Headers */,
+				0969BEF6C6FE7884758DD7E85417BC2D /* NSMutableSet+BlocksKit.h in Headers */,
+				E58A1E7159EE46F529CBE5EC35668136 /* NSObject+A2BlockDelegate.h in Headers */,
+				46F59FA9BB713BB12E6097FE97D51891 /* NSObject+A2DynamicDelegate.h in Headers */,
+				3B498BC1828A57F324BC181D0D6C3412 /* NSObject+BKAssociatedObjects.h in Headers */,
+				87C37C655E95D682D64263CB993D11F2 /* NSObject+BKBlockExecution.h in Headers */,
+				84D2D9274F9B0E41FD2FAF735E8246FE /* NSObject+BKBlockObservation.h in Headers */,
+				88594865A5B01AA7ADEE6FBC9B8A6775 /* NSOrderedSet+BlocksKit.h in Headers */,
+				250F9B348ED30E7D9BABF955FF6F71F5 /* NSSet+BlocksKit.h in Headers */,
+				5C408C7CFF61A8D253545451EFEB0182 /* NSTimer+BlocksKit.h in Headers */,
+				6FA74570D30C3F4FBDAB3551DB28A753 /* NSURLConnection+BlocksKit.h in Headers */,
+				70999C85B6D58577A77EF53F23686838 /* UIActionSheet+BlocksKit.h in Headers */,
+				7499F8DAC33E0B18291B133CB1736BA5 /* UIAlertView+BlocksKit.h in Headers */,
+				692ECFE250E8BE3B5319205A205ACD70 /* UIBarButtonItem+BlocksKit.h in Headers */,
+				C94EDEFE86043475EAD86BB06C4A2A7E /* UIControl+BlocksKit.h in Headers */,
+				76440AE11A07C02D3106FC18340429DC /* UIGestureRecognizer+BlocksKit.h in Headers */,
+				FE624387EB0915237B72C184481757B3 /* UIImagePickerController+BlocksKit.h in Headers */,
+				9B3807B42C2F9AF35AE1540121505A57 /* UIPopoverController+BlocksKit.h in Headers */,
+				540329AEC3F6E66BC4AF43B2209F4E09 /* UITextField+BlocksKit.h in Headers */,
+				0D35BF5631EE154DD2B21AF62D544563 /* UIView+BlocksKit.h in Headers */,
+				1F2413DB5738D39FCD5CC26D95BEB8CC /* UIWebView+BlocksKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D153D55E12C5BDABF717BE1EB81074A7 /* Headers */ = {
+		626C13DC102426D7874568A3976C68CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0311D0542B05A518757295268696E84B /* DRProgressMaskView-umbrella.h in Headers */,
+				661A54EE5A7EA237DC540CB8292CD3E8 /* DRColorProgressView.h in Headers */,
+				B1E46485E55D2A49610C990628824EB8 /* DRProgressMaskView-umbrella.h in Headers */,
+				7BEAF8EC2D0AE19924E1DD8773CC5980 /* DRProgressMaskView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7677CB5A963223E8A01A45001AC5427B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A751445C7E7E3C3F5EF5B1E60DCEDE1 /* Pods-DRProgressMaskView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F3B1B01B47D8A6D86878B8D456F151 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C3987DE1FAA23453A28CA885D012DF /* CAAnimation+DRExtension.h in Headers */,
+				65250460EEADB24CC5B57069590667D8 /* CALayer+DRExtension.h in Headers */,
+				FAF50ECC8CCF4FA0F5ACC94B20ED898C /* DRCategories-umbrella.h in Headers */,
+				A185DF381BFBEBD42084E5BF4B83981B /* NSArray+DRExtension.h in Headers */,
+				979A839272A40C6A1CCF76FBC9555C29 /* NSAttributedString+DRExtension.h in Headers */,
+				DF2DF35FF9B7C2961B70CCAE2B59C28E /* NSDate+DRExtension.h in Headers */,
+				34BD9E36CC35C1F4DEF7695D976E51CB /* NSDictionary+DRExtension.h in Headers */,
+				83F01614A217B738E304FD5D509E7331 /* NSMutableSet+DRExtension.h in Headers */,
+				3856CCD41756B3EA8428375807908A3C /* NSNumber+DRExtension.h in Headers */,
+				6BB8CFBD156D50414721A9F99CF909E6 /* NSObject+DRExtension.h in Headers */,
+				3176917BFF74DA2B42337A20A4A880FF /* NSString+DRExtension.h in Headers */,
+				7368FF0C1ECC3DE868E021BCF5B066F0 /* NSUserDefaults+DRExtension.h in Headers */,
+				7EC9FEB129C290DDB5BFE567011C0051 /* UIBarButtonItem+DRExtension.h in Headers */,
+				A806EEB929EE9486DC138BFBB570ACFF /* UICollectionView+DRExtension.h in Headers */,
+				73559D32EEF444B43EBEFEC4528E6BBD /* UIFont+DRExtentsion.h in Headers */,
+				66218B5701FC9DC50D0FF40A308A8143 /* UIImage+DRExtension.h in Headers */,
+				DEC876A5E3F859B09054ABDCE1DFA627 /* UINavigationBar+DRExtension.h in Headers */,
+				19125237226505390163618B1EA59B0F /* UIScrollView+DRExtension.h in Headers */,
+				93F740876AD550EA825A54699D737226 /* UITabBar+DRExtension.h in Headers */,
+				D966A006C36C007467A83195BB416C6E /* UITableView+DRExtension.h in Headers */,
+				34420E8A95A9A7E979EA2D09716787A2 /* UITextField+DRExtension.h in Headers */,
+				B9E58650B9274E936D2AE09A21BDC2E2 /* UITextView+DRExtension.h in Headers */,
+				3CEEFD2E8B8908258F87B2DE4EB02A80 /* UIView+DRExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F1842D3B20B3706B891DF4B16F6DA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7474EDC3F3EF6C08129D472CC6727B4 /* FloatConversion.h in Headers */,
+				822F50C4C5C9047120C4D1B156136BA6 /* pop-umbrella.h in Headers */,
+				1ABF86BF76BBB8CDD15DE9941C05935C /* POP.h in Headers */,
+				00B750AFA6FB509CB77490B42A50CEE9 /* POPAction.h in Headers */,
+				B3CA2F891A27333854CD574841893841 /* POPAnimatableProperty.h in Headers */,
+				8B7E2A66DE0AD3253FE1CE0935F59B6E /* POPAnimatablePropertyTypes.h in Headers */,
+				4C675189A7F1CE5A97A8DCFBDF29EE31 /* POPAnimation.h in Headers */,
+				D18D4EBB1F05415DAD614622E0CE58EA /* POPAnimationEvent.h in Headers */,
+				AA07EB43F679CD4458AB3E0BED7C851B /* POPAnimationEventInternal.h in Headers */,
+				1FC5BBF8483BBC4A228537322CADEAFD /* POPAnimationExtras.h in Headers */,
+				7B1FA6829BC3972F166026C90A17ED3B /* POPAnimationInternal.h in Headers */,
+				A4F546F0DA66B8515359E5EA5661EC00 /* POPAnimationPrivate.h in Headers */,
+				E957ACC5BBB9E4CCFB97BA4B38096C23 /* POPAnimationRuntime.h in Headers */,
+				AEBEA21F01229E939FF2DF1A95C38898 /* POPAnimationTracer.h in Headers */,
+				1F10ABB4919FAFE8DBBBC62899FE401E /* POPAnimationTracerInternal.h in Headers */,
+				55C32C3577CAD1422F394245DD87FB3A /* POPAnimator.h in Headers */,
+				8D38451642628E4E0C4BCE02B4A514D0 /* POPAnimatorPrivate.h in Headers */,
+				AEDE103BCC4E9C649CBABAB6021977C1 /* POPBasicAnimation.h in Headers */,
+				8B8B1E9E0869B6D40D19CAB7891EAFD5 /* POPBasicAnimationInternal.h in Headers */,
+				F433FD0FB2D5EE1C8BE9B266EB4D72B7 /* POPCGUtils.h in Headers */,
+				47A49B2577D0376C6DC13249D9D575BE /* POPCustomAnimation.h in Headers */,
+				E383587130AEEA80345DCAB484CEB290 /* POPDecayAnimation.h in Headers */,
+				5D5DCD73C76084A36C40D48C78ECA11B /* POPDecayAnimationInternal.h in Headers */,
+				A19A521BCB0FDF9E17E6B56ADBA863B0 /* POPDefines.h in Headers */,
+				96E2A17FD73410936E7592A4F703557E /* POPGeometry.h in Headers */,
+				6D2417F00AB6FA26ECA7EDB66E3028FA /* POPLayerExtras.h in Headers */,
+				525D5FD04FA2C3E03286D10DD7FA6833 /* POPMath.h in Headers */,
+				216AADD2F683BD61C405A12DDA667DB4 /* POPPropertyAnimation.h in Headers */,
+				D0968981047C1ACC5367C2E17D7CFDE8 /* POPPropertyAnimationInternal.h in Headers */,
+				9021243C63B69817D22A7E11CC1C72D2 /* POPSpringAnimation.h in Headers */,
+				B8F5B13845477ED9BD47EE95B567911A /* POPSpringAnimationInternal.h in Headers */,
+				A135AFD118BE33602E044A5BF1AD6C48 /* POPSpringSolver.h in Headers */,
+				7F69E4442FA28CC4B131B8D2448D184C /* POPVector.h in Headers */,
+				3816DFC48F6EA56441D6830E767B2345 /* TransformationMatrix.h in Headers */,
+				9480E60C577FAE27B9F3081741079A3C /* UnitBezier.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1EE6D59A8811C960887DACCDCD83C899 /* DRProgressMaskView */ = {
+		0483D7F620C992E5C4BD62A7266EABB4 /* pop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35E928A1FF55CA69E16009FD83BEC5D1 /* Build configuration list for PBXNativeTarget "DRProgressMaskView" */;
+			buildConfigurationList = 8D2B391A908ED4AF291033F65AF2ED81 /* Build configuration list for PBXNativeTarget "pop" */;
 			buildPhases = (
-				D153D55E12C5BDABF717BE1EB81074A7 /* Headers */,
-				2F730ECC18A748915FD5818D538C0D0D /* Sources */,
-				C2FF6B7E531115F3B435A118800CA87A /* Frameworks */,
-				D24F1AD8B0466419410727D3B73869C3 /* Resources */,
+				E7F1842D3B20B3706B891DF4B16F6DA6 /* Headers */,
+				45A8F62827E0F2F2BBA01601A9AB436D /* Sources */,
+				7120F47C42DF32F263B804339FEC811D /* Frameworks */,
+				B03B766F992213A2E5C3BA8DD9F14E8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = pop;
+			productName = pop;
+			productReference = FCFA6AC2F3F4DF1130D7B50F60DE8FA2 /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EE6D59A8811C960887DACCDCD83C899 /* DRProgressMaskView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0449DAB70D14C410929BD83B8FB7463F /* Build configuration list for PBXNativeTarget "DRProgressMaskView" */;
+			buildPhases = (
+				626C13DC102426D7874568A3976C68CE /* Headers */,
+				9C2AE6D47F72A9D44C9FC0369FAD3E2E /* Sources */,
+				5BE480AFDF6D91A4D31C8500BF6ED952 /* Frameworks */,
+				CF07B77B4CF7EFC7945AA438803E18A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B110DC39DC0DAA4C34C1410C989516 /* PBXTargetDependency */,
+			);
 			name = DRProgressMaskView;
 			productName = DRProgressMaskView;
-			productReference = 6066A08269486ACCC1428003AF4F5DFB /* DRProgressMaskView.framework */;
+			productReference = B90F5C51A40A9B5128D8D250CD07BAF4 /* DRProgressMaskView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		286B8FAAB53AEFE2FB0125BB4D243B84 /* Pods-DRProgressMaskView_Tests */ = {
@@ -285,26 +1357,109 @@
 			);
 			name = "Pods-DRProgressMaskView_Tests";
 			productName = "Pods-DRProgressMaskView_Tests";
-			productReference = 12FA38F359435F1578FF8D14C1DCFBDC /* Pods_DRProgressMaskView_Tests.framework */;
+			productReference = BEA4664F3BD60C3B280FF886DAB9EFF4 /* Pods_DRProgressMaskView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4B55E7AAE4010985EEB6DDD6691C5AA1 /* Pods-DRProgressMaskView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DAFD242FEEC4FE22D2A22967BB2C633 /* Build configuration list for PBXNativeTarget "Pods-DRProgressMaskView_Example" */;
+			buildConfigurationList = F03DE32E8B567B21F602F3CB6269F821 /* Build configuration list for PBXNativeTarget "Pods-DRProgressMaskView_Example" */;
 			buildPhases = (
-				850532AF23074FA0998ABD4E432DB80E /* Headers */,
-				231CFA69C09AF6FFDA84D98E8B99A69A /* Sources */,
-				62DA8A206B7EB19A9FD5515C131D04E1 /* Frameworks */,
-				AAF24FE61BB65D55B1558CA38D7924B1 /* Resources */,
+				7677CB5A963223E8A01A45001AC5427B /* Headers */,
+				4D58C3CCC5C96BC61BFCC5069EF69953 /* Sources */,
+				F251D035DD5A38F3900F812005BFDCB8 /* Frameworks */,
+				4AE9BAD6CEF45E4183FD170A1437AB61 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5972926D3F72B9EB4DE8434135DB476F /* PBXTargetDependency */,
+				0DCD5A35B5A9C05AEC7F6D2B890F88C6 /* PBXTargetDependency */,
+				C5AFBC4ACCC054F2F47DBF0077F0E6AB /* PBXTargetDependency */,
+				E0E59F38538E3B855D63739D0AF981AE /* PBXTargetDependency */,
+				269ED4339BECB2DD46EFC2E9847F95DA /* PBXTargetDependency */,
+				E691B88419B7576738A2995A11B535C3 /* PBXTargetDependency */,
+				36736D2C13A2A837E2DF9D62F912C3DD /* PBXTargetDependency */,
+				5DE2DD90E1DCE01808377B76F7CECC1F /* PBXTargetDependency */,
 			);
 			name = "Pods-DRProgressMaskView_Example";
 			productName = "Pods-DRProgressMaskView_Example";
-			productReference = 19FFFD224F2B3C39634105A116C3C82A /* Pods_DRProgressMaskView_Example.framework */;
+			productReference = 0C46783B788E8E3FA9174EB890F698FF /* Pods_DRProgressMaskView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B932994F792A5A6F409EDCCE203C5D24 /* Build configuration list for PBXNativeTarget "BlocksKit" */;
+			buildPhases = (
+				5240C2FD6FC14D57D98F4E06680E06D9 /* Headers */,
+				3F4F331B06CCFCA78C823CAA34DB2310 /* Sources */,
+				BF67D7A1CB31B3A903F9F76DD3A34E63 /* Frameworks */,
+				6D636A80B9A698D3FB35A3E6B2E22760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocksKit;
+			productName = BlocksKit;
+			productReference = 66BB59CA63B289BF2F59354C401675DA /* BlocksKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B95D6D4E012A8E578DA54065DF5F8D53 /* DRCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CA5A578AEB1C0992934472EE7560E4 /* Build configuration list for PBXNativeTarget "DRCategories" */;
+			buildPhases = (
+				91F3B1B01B47D8A6D86878B8D456F151 /* Headers */,
+				5D6023FB08F067CAF8D8BA44EC2F5B51 /* Sources */,
+				B66739AC4415E8ED85332E591EDC5B08 /* Frameworks */,
+				95CDABEC5121EDF372C73E6E6DD17F2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6FB8D3EB0B2FAE5F6292B201A3C8C5 /* PBXTargetDependency */,
+				576C90A45592A89CAE1F7D79923FC3BC /* PBXTargetDependency */,
+				CA88966D1C4C61F5A18A4494C7FCB515 /* PBXTargetDependency */,
+			);
+			name = DRCategories;
+			productName = DRCategories;
+			productReference = D3392AF263558684100C7F5C5541AC3D /* DRCategories.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE9BA31CC8B6BDC6E726CE514EA3BB61 /* DRSandboxManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56467FE692D156972088603A9728CD41 /* Build configuration list for PBXNativeTarget "DRSandboxManager" */;
+			buildPhases = (
+				05EAB8352F753C3B4BC2D31C1BD4AEF8 /* Headers */,
+				7F311474126718ACCB83FAC2DBC47FB3 /* Sources */,
+				D76F570FFA7D4D726286B5CB9A01D5F8 /* Frameworks */,
+				E67EDAEE2776C552248562847B816F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRSandboxManager;
+			productName = DRSandboxManager;
+			productReference = EEF588BF7C0D17CA1504F4F43D41CE18 /* DRSandboxManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE7EC99D3ED1889C0E866F0A31F6D40D /* DRInputLimitManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472C21C69747B51C457496A4C82449C /* Build configuration list for PBXNativeTarget "DRInputLimitManager" */;
+			buildPhases = (
+				0AE51C40A04751BB4F16A5FFA4249CAD /* Headers */,
+				3801098B3634FDFC1F675CA1AADE9ABC /* Sources */,
+				3ACD7AE14CDCC5F46199F32B2A77418D /* Frameworks */,
+				2FF3BA35F3B83105B69CBE3B1C9EE524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0FD34FBA00BC73CE8D66040DB796F56 /* PBXTargetDependency */,
+				FDB0DBFBE5A6B3235B1FB76356BF1466 /* PBXTargetDependency */,
+			);
+			name = DRInputLimitManager;
+			productName = DRInputLimitManager;
+			productReference = D74E19EFEB1EC4C37C893C766AF42BD6 /* DRInputLimitManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,26 +1479,67 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0A39DE96188673CED905648C1A653366 /* Products */;
+			productRefGroup = C1C1DEF370F48FC6FAE3CCDC58A9B156 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */,
+				B95D6D4E012A8E578DA54065DF5F8D53 /* DRCategories */,
+				FE7EC99D3ED1889C0E866F0A31F6D40D /* DRInputLimitManager */,
+				CC3142BF73C56E413A6C42E4B6A76B13 /* DRMacroDefines */,
 				1EE6D59A8811C960887DACCDCD83C899 /* DRProgressMaskView */,
+				DE9BA31CC8B6BDC6E726CE514EA3BB61 /* DRSandboxManager */,
 				4B55E7AAE4010985EEB6DDD6691C5AA1 /* Pods-DRProgressMaskView_Example */,
 				286B8FAAB53AEFE2FB0125BB4D243B84 /* Pods-DRProgressMaskView_Tests */,
+				0483D7F620C992E5C4BD62A7266EABB4 /* pop */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AAF24FE61BB65D55B1558CA38D7924B1 /* Resources */ = {
+		2FF3BA35F3B83105B69CBE3B1C9EE524 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D24F1AD8B0466419410727D3B73869C3 /* Resources */ = {
+		4AE9BAD6CEF45E4183FD170A1437AB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D636A80B9A698D3FB35A3E6B2E22760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CDABEC5121EDF372C73E6E6DD17F2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03B766F992213A2E5C3BA8DD9F14E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF07B77B4CF7EFC7945AA438803E18A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67EDAEE2776C552248562847B816F2E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,20 +1556,136 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		231CFA69C09AF6FFDA84D98E8B99A69A /* Sources */ = {
+		3801098B3634FDFC1F675CA1AADE9ABC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0F02B835E5F5745085E2B577CF5BFDA /* Pods-DRProgressMaskView_Example-dummy.m in Sources */,
+				D8A74F63CDF6E4983F4FC60286707BF8 /* DRInputLimitManager-dummy.m in Sources */,
+				98A04A3E8CD7172338BA393BE6DFC2DF /* DRInputLimitManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F730ECC18A748915FD5818D538C0D0D /* Sources */ = {
+		3F4F331B06CCFCA78C823CAA34DB2310 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				935A623644CF6266E1CB620544545D26 /* DRProgressMaskView-dummy.m in Sources */,
-				F9FBB75C0E67F35FFCB30F89828CBE75 /* ReplaceMe.m in Sources */,
+				48A12B3D7B640C6ED1AFF9BEEAB13D3A /* A2BlockInvocation.m in Sources */,
+				6CE10518EE2E053F30A87F6CFA6CA268 /* A2DynamicDelegate.m in Sources */,
+				8DFC8CF3E51BE1F89E0A29F5C58291B1 /* BlocksKit-dummy.m in Sources */,
+				0DF33B80238E686A8CA6375E09C9A256 /* MFMailComposeViewController+BlocksKit.m in Sources */,
+				D6616F3DBF175B29F73C73E3CBE76D96 /* MFMessageComposeViewController+BlocksKit.m in Sources */,
+				DD5E77B3B50BF0416192655F721F6199 /* NSArray+BlocksKit.m in Sources */,
+				23E8208D0DFB350FF4829C5B61BD36B8 /* NSCache+BlocksKit.m in Sources */,
+				B7438B9B18B4266A8F31D85ECCF4AD3C /* NSDictionary+BlocksKit.m in Sources */,
+				81663CDDFA7999DFFC0CE3CB29C8FAA6 /* NSIndexSet+BlocksKit.m in Sources */,
+				6DD03A6B3E0C1840A53C17F477A81F14 /* NSInvocation+BlocksKit.m in Sources */,
+				37705B968D5831B1917AEC9643AFA5B2 /* NSMutableArray+BlocksKit.m in Sources */,
+				97AF0D77AC2F3B43A978E1247AE7D640 /* NSMutableDictionary+BlocksKit.m in Sources */,
+				928FBAAEAEE89CCE9E4639FA6FB4B5C3 /* NSMutableIndexSet+BlocksKit.m in Sources */,
+				A51F238837061275AC43906B74962292 /* NSMutableOrderedSet+BlocksKit.m in Sources */,
+				A1E6F1D6D30F2FD70ABBCA124C637597 /* NSMutableSet+BlocksKit.m in Sources */,
+				97A15F9B2C06F6566C07A6A620C7C8F3 /* NSObject+A2BlockDelegate.m in Sources */,
+				F8FFBC801D948D90623D468FA95B53E0 /* NSObject+A2DynamicDelegate.m in Sources */,
+				833EC76312A8A1763022CB175EFA0391 /* NSObject+BKAssociatedObjects.m in Sources */,
+				A321CE4AEE64258D573B0A0AD8EFDB0D /* NSObject+BKBlockExecution.m in Sources */,
+				37DA78160F69850B777624638DA0BCA8 /* NSObject+BKBlockObservation.m in Sources */,
+				FFDF5137376592F516DB77512A6BF02D /* NSOrderedSet+BlocksKit.m in Sources */,
+				73450A6D8E347351A518B377A387CA16 /* NSSet+BlocksKit.m in Sources */,
+				A96267435E9819B0921CDCEC757599D9 /* NSTimer+BlocksKit.m in Sources */,
+				72D4595EE78C8EAF5C70509A654B1359 /* NSURLConnection+BlocksKit.m in Sources */,
+				10FF6DB87B20FFC584701E6BA9F99ED4 /* UIActionSheet+BlocksKit.m in Sources */,
+				47107D67343EFC18336E24A8E30D09FB /* UIAlertView+BlocksKit.m in Sources */,
+				1F40EB0FC0E2969AA7EE956B3FF3AE81 /* UIBarButtonItem+BlocksKit.m in Sources */,
+				7D2274244D1E8CFB61E3CBB9F8FFE1E4 /* UIControl+BlocksKit.m in Sources */,
+				F26E039E1D4249E4E9FBA94ED67D887B /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				060D97F05E4364D58C359AC7DD0FA4F0 /* UIImagePickerController+BlocksKit.m in Sources */,
+				3D14B9DC076B6A5D8B6994149D3AA5ED /* UIPopoverController+BlocksKit.m in Sources */,
+				B9C8CA8DF39FDBC035C7FC68185D39C6 /* UITextField+BlocksKit.m in Sources */,
+				2FE42DDD6CBD888A558F5A9AB7ED9F5B /* UIView+BlocksKit.m in Sources */,
+				3040FA8580ACE33BE9172D48E74C2957 /* UIWebView+BlocksKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A8F62827E0F2F2BBA01601A9AB436D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06155356D8B75BA09CE4A7E323222BC8 /* pop-dummy.m in Sources */,
+				389428FD60E3CA4BB722350BB71C737C /* POPAnimatableProperty.mm in Sources */,
+				840B56B26D5542D0501E4C4369D746D8 /* POPAnimation.mm in Sources */,
+				1E171EB840A05FA97E466F0BA065EC39 /* POPAnimationEvent.mm in Sources */,
+				FBA5C909E2DE931EBC071CA364528474 /* POPAnimationExtras.mm in Sources */,
+				CD232D7427BFDDDE92372CD994A82FBE /* POPAnimationRuntime.mm in Sources */,
+				DBE8EBD91B955DEAEE1C9BAE69FD4E02 /* POPAnimationTracer.mm in Sources */,
+				7E16389B222637FEEB8AF820DA37EA05 /* POPAnimator.mm in Sources */,
+				776E8C4C71D198276DA5F99FF686B357 /* POPBasicAnimation.mm in Sources */,
+				92D5062A20F044FEC8EB499FB69BF482 /* POPCGUtils.mm in Sources */,
+				C58C6B22521BFEEA13867099F69DFD82 /* POPCustomAnimation.mm in Sources */,
+				68766882D2A6A24EC6CA139B4EC27CE2 /* POPDecayAnimation.mm in Sources */,
+				535A408ED0ECBF8B8C2CCF1CB51E83F7 /* POPGeometry.mm in Sources */,
+				EBA11C9B0463E7B5BACE78E18D06AFC3 /* POPLayerExtras.mm in Sources */,
+				85BA24110AA291437E9E45BE2BF8B0DA /* POPMath.mm in Sources */,
+				F7ABC3A74E2F9E208B2ABBF5B75D6B4D /* POPPropertyAnimation.mm in Sources */,
+				9BB32861D5FAEE0DBDAE238BC1911AAC /* POPSpringAnimation.mm in Sources */,
+				AEF96A70E5CD25EBBB574E246B1D8039 /* POPVector.mm in Sources */,
+				87B9597BC2C96B1BD78F13597DADFCB0 /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D58C3CCC5C96BC61BFCC5069EF69953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA5B20F4FB7C470361F597D85ABCFFD /* Pods-DRProgressMaskView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6023FB08F067CAF8D8BA44EC2F5B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A1189F5F8DD00685C05C3F258458F /* CAAnimation+DRExtension.m in Sources */,
+				DAEEAE7ECC0AAD622BC476A5C10DFC51 /* CALayer+DRExtension.m in Sources */,
+				4EAF9094250F40635881CA1EA5214F03 /* DRCategories-dummy.m in Sources */,
+				2D2EA29A9B4AB92D487AAC5621463EC5 /* NSArray+DRExtension.m in Sources */,
+				AFF4CA9DC3D28913B1D7E5B61C885605 /* NSAttributedString+DRExtension.m in Sources */,
+				7F86DA1CEE6E76795244DF5E5F5FA69A /* NSDate+DRExtension.mm in Sources */,
+				66B8EF9D48A5AB5B4CB77067CE12BB71 /* NSDictionary+DRExtension.m in Sources */,
+				E255B60CEED23900665D0967E0A7146F /* NSMutableSet+DRExtension.m in Sources */,
+				CE50E77E6C463FF154266993457F36B4 /* NSNumber+DRExtension.m in Sources */,
+				B3EC55F887A10034D71CA508AA44FEEE /* NSObject+DRExtension.m in Sources */,
+				987EF24F42333CC2039C44845817846D /* NSString+DRExtension.m in Sources */,
+				DC1525E3D1203332752AF1792978F4BB /* NSUserDefaults+DRExtension.m in Sources */,
+				5A7C457492DD6BD92C8DD5754BF32CDB /* UIBarButtonItem+DRExtension.m in Sources */,
+				9BB4B8CC9BCCCCA39B94B23F7C3DFA06 /* UICollectionView+DRExtension.m in Sources */,
+				5CF6F827400CC3CD2A20DA7468C7778C /* UIFont+DRExtentsion.m in Sources */,
+				5810407A5329A4BE190AA9F4D9FA0604 /* UIImage+DRExtension.m in Sources */,
+				1FB49F005B9B7BEDB04483978082BC39 /* UINavigationBar+DRExtension.m in Sources */,
+				489E3A8AB9A941FF1ED3B756448F3898 /* UIScrollView+DRExtension.m in Sources */,
+				8AD24919AEA4E1838F6591114D69A8B2 /* UITabBar+DRExtension.m in Sources */,
+				30B4EDC9D7B5058E2482B2E5A5C0DA42 /* UITableView+DRExtension.m in Sources */,
+				3242C219661540323F506BCD2BCABB79 /* UITextField+DRExtension.m in Sources */,
+				BB5C04BBAFE9E79560DEED437BC454BD /* UITextView+DRExtension.m in Sources */,
+				8907B614419100BC143C248060844129 /* UIView+DRExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F311474126718ACCB83FAC2DBC47FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E043E7C2A387C7485536DD7B8647D3 /* DRSandboxManager-dummy.m in Sources */,
+				B693BBBA3557D70B7743237793676BF3 /* DRSandBoxManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2AE6D47F72A9D44C9FC0369FAD3E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C65513A933BF1025B87304799A25D03 /* DRColorProgressView.m in Sources */,
+				D93562BC5787E7909635118115736F10 /* DRProgressMaskView-dummy.m in Sources */,
+				FCE592CAEB7F3034141CE97DD7488330 /* DRProgressMaskView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,17 +1700,89 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5972926D3F72B9EB4DE8434135DB476F /* PBXTargetDependency */ = {
+		0DCD5A35B5A9C05AEC7F6D2B890F88C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlocksKit;
+			target = B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */;
+			targetProxy = CE4D9F97FE03116B31E3E5033B66B3BD /* PBXContainerItemProxy */;
+		};
+		20B110DC39DC0DAA4C34C1410C989516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRCategories;
+			target = B95D6D4E012A8E578DA54065DF5F8D53 /* DRCategories */;
+			targetProxy = 06E6C7EBEEE9A912C8BC1D6FE38D7B68 /* PBXContainerItemProxy */;
+		};
+		269ED4339BECB2DD46EFC2E9847F95DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRMacroDefines;
+			target = CC3142BF73C56E413A6C42E4B6A76B13 /* DRMacroDefines */;
+			targetProxy = F625F0FB2C6CA85CF7BD5696ED2DAE54 /* PBXContainerItemProxy */;
+		};
+		36736D2C13A2A837E2DF9D62F912C3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRSandboxManager;
+			target = DE9BA31CC8B6BDC6E726CE514EA3BB61 /* DRSandboxManager */;
+			targetProxy = 4E762E78A2EA09FAB33B452E3D94EF27 /* PBXContainerItemProxy */;
+		};
+		576C90A45592A89CAE1F7D79923FC3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRSandboxManager;
+			target = DE9BA31CC8B6BDC6E726CE514EA3BB61 /* DRSandboxManager */;
+			targetProxy = 3F11D9CC875531573CCE13A701518120 /* PBXContainerItemProxy */;
+		};
+		5DE2DD90E1DCE01808377B76F7CECC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 0483D7F620C992E5C4BD62A7266EABB4 /* pop */;
+			targetProxy = 1AA5DAD8D9D7586E48059227CE682DE0 /* PBXContainerItemProxy */;
+		};
+		6F6FB8D3EB0B2FAE5F6292B201A3C8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRInputLimitManager;
+			target = FE7EC99D3ED1889C0E866F0A31F6D40D /* DRInputLimitManager */;
+			targetProxy = 6BF402C1C8A6C94B2D2D03968B4A7E7C /* PBXContainerItemProxy */;
+		};
+		C5AFBC4ACCC054F2F47DBF0077F0E6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRCategories;
+			target = B95D6D4E012A8E578DA54065DF5F8D53 /* DRCategories */;
+			targetProxy = 0A6920A8EE1A901C496E2BB6D956A662 /* PBXContainerItemProxy */;
+		};
+		CA88966D1C4C61F5A18A4494C7FCB515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 0483D7F620C992E5C4BD62A7266EABB4 /* pop */;
+			targetProxy = 1BF57CCDCB6A2AFD358BACD1FB0B38E5 /* PBXContainerItemProxy */;
+		};
+		E0E59F38538E3B855D63739D0AF981AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRInputLimitManager;
+			target = FE7EC99D3ED1889C0E866F0A31F6D40D /* DRInputLimitManager */;
+			targetProxy = EF8171E94E3F601D4928D1C55F5FF04F /* PBXContainerItemProxy */;
+		};
+		E0FD34FBA00BC73CE8D66040DB796F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlocksKit;
+			target = B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */;
+			targetProxy = D2D21AE8FAD6719F111A61DC2BAFA5CF /* PBXContainerItemProxy */;
+		};
+		E691B88419B7576738A2995A11B535C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DRProgressMaskView;
 			target = 1EE6D59A8811C960887DACCDCD83C899 /* DRProgressMaskView */;
-			targetProxy = 233F4C867616524E54C242B81D5364D3 /* PBXContainerItemProxy */;
+			targetProxy = 3AB42DFFAA69774FC4245F11F1FF5AB2 /* PBXContainerItemProxy */;
 		};
 		EF2FAE4DF2969090C81BC71B7C978383 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DRProgressMaskView_Example";
 			target = 4B55E7AAE4010985EEB6DDD6691C5AA1 /* Pods-DRProgressMaskView_Example */;
 			targetProxy = 31CAC92553CE3AC775A7691BED295335 /* PBXContainerItemProxy */;
+		};
+		FDB0DBFBE5A6B3235B1FB76356BF1466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRMacroDefines;
+			target = CC3142BF73C56E413A6C42E4B6A76B13 /* DRMacroDefines */;
+			targetProxy = E3501EED4720DCFA93FE22DB512DDCC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,9 +1821,9 @@
 			};
 			name = Release;
 		};
-		15CDE0D6DFD4FE871AC8958C27A3610F /* Debug */ = {
+		0D036AEB209E5EEB45CF4658A0A8C6DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B12F07D071D41D6078466EBA6FCC38A2 /* DRProgressMaskView.xcconfig */;
+			baseConfigurationReference = E4AF443EDDA7C169E45FDC99CA989F0C /* DRInputLimitManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -450,14 +1834,112 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DRProgressMaskView/DRProgressMaskView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DRInputLimitManager/DRInputLimitManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRInputLimitManager/DRInputLimitManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView.modulemap";
-				PRODUCT_MODULE_NAME = DRProgressMaskView;
-				PRODUCT_NAME = DRProgressMaskView;
+				MODULEMAP_FILE = "Target Support Files/DRInputLimitManager/DRInputLimitManager.modulemap";
+				PRODUCT_MODULE_NAME = DRInputLimitManager;
+				PRODUCT_NAME = DRInputLimitManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29A27A228AAC4C5F34ED762F8F81A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E787C12734EA2FD8876646CEB8717661 /* DRSandboxManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRSandboxManager/DRSandboxManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager.modulemap";
+				PRODUCT_MODULE_NAME = DRSandboxManager;
+				PRODUCT_NAME = DRSandboxManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		483086C425B767B3321EF0E11535C305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F3F13B605268FEB501D77497FDFB23 /* Pods-DRProgressMaskView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DRProgressMaskView_Example/Pods-DRProgressMaskView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRProgressMaskView_Example/Pods-DRProgressMaskView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B07F48CD82DC673158C76300962326E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E787C12734EA2FD8876646CEB8717661 /* DRSandboxManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRSandboxManager/DRSandboxManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager.modulemap";
+				PRODUCT_MODULE_NAME = DRSandboxManager;
+				PRODUCT_NAME = DRSandboxManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -528,7 +2010,39 @@
 			};
 			name = Release;
 		};
-		5DF90BF2CA9BBE7CFDE6292F910AB4A8 /* Debug */ = {
+		6B8A03390FBC4029CA59DAB358DB118C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD6941AAF379FC0ED674E424DA888A9 /* DRCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRCategories/DRCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRCategories/DRCategories-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRCategories/DRCategories.modulemap";
+				PRODUCT_MODULE_NAME = DRCategories;
+				PRODUCT_NAME = DRCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DDDDEC8E031417A79651FD01805976F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B7ABEC9DD909812139977FD18B81EFF3 /* Pods-DRProgressMaskView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -561,9 +2075,9 @@
 			};
 			name = Debug;
 		};
-		6F1CC8DDBDA97B8A019B7506F3B9BF89 /* Release */ = {
+		7BAD395B198AA477ED212E388773AFCF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B12F07D071D41D6078466EBA6FCC38A2 /* DRProgressMaskView.xcconfig */;
+			baseConfigurationReference = 305ED9D056E450405E040F0642DABC2B /* pop.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -574,14 +2088,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DRProgressMaskView/DRProgressMaskView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/pop-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView.modulemap";
-				PRODUCT_MODULE_NAME = DRProgressMaskView;
-				PRODUCT_NAME = DRProgressMaskView;
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				PRODUCT_MODULE_NAME = pop;
+				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -657,11 +2171,10 @@
 			};
 			name = Debug;
 		};
-		94CF73E5E9F5B1FFD32E68B1AE53DE9A /* Release */ = {
+		94022FC572F523529907CFBE4DA5D458 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9F3F13B605268FEB501D77497FDFB23 /* Pods-DRProgressMaskView_Example.release.xcconfig */;
+			baseConfigurationReference = 6AD6941AAF379FC0ED674E424DA888A9 /* DRCategories.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -671,25 +2184,207 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DRProgressMaskView_Example/Pods-DRProgressMaskView_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DRCategories/DRCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRCategories/DRCategories-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DRProgressMaskView_Example/Pods-DRProgressMaskView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/DRCategories/DRCategories.modulemap";
+				PRODUCT_MODULE_NAME = DRCategories;
+				PRODUCT_NAME = DRCategories;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97A656589BFD30BDD6C97431EE08FE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20A5A7870BB6856CEC962ED0E24DC70 /* BlocksKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlocksKit/BlocksKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlocksKit/BlocksKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlocksKit/BlocksKit.modulemap";
+				PRODUCT_MODULE_NAME = BlocksKit;
+				PRODUCT_NAME = BlocksKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5CB9AAAFD1055049AC6BB9A5A3C5B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE324D1A42F295146941C727DF31F44 /* DRProgressMaskView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRProgressMaskView/DRProgressMaskView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView.modulemap";
+				PRODUCT_MODULE_NAME = DRProgressMaskView;
+				PRODUCT_NAME = DRProgressMaskView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D7BC1B69C7488552D21324C71F1A76EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20A5A7870BB6856CEC962ED0E24DC70 /* BlocksKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlocksKit/BlocksKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlocksKit/BlocksKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlocksKit/BlocksKit.modulemap";
+				PRODUCT_MODULE_NAME = BlocksKit;
+				PRODUCT_NAME = BlocksKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D82AB4E56FE1F0427446947509F97D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F647751CF9819E9DE2DDA9D8D311D920 /* DRMacroDefines.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2E7301A9C0CA96B08FA23004D248588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305ED9D056E450405E040F0642DABC2B /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/pop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				PRODUCT_MODULE_NAME = pop;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA9C3DF90F8151FBA8B554324C62759F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE324D1A42F295146941C727DF31F44 /* DRProgressMaskView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRProgressMaskView/DRProgressMaskView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView.modulemap";
+				PRODUCT_MODULE_NAME = DRProgressMaskView;
+				PRODUCT_NAME = DRProgressMaskView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFF513DC0DCD07ADF827DDB0D5EC90C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F647751CF9819E9DE2DDA9D8D311D920 /* DRMacroDefines.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		F62DCF57FCCC4754983090F82CD107AA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -724,14 +2419,63 @@
 			};
 			name = Debug;
 		};
+		FE680582DECC1D3E89D848D0C0185688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4AF443EDDA7C169E45FDC99CA989F0C /* DRInputLimitManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRInputLimitManager/DRInputLimitManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRInputLimitManager/DRInputLimitManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRInputLimitManager/DRInputLimitManager.modulemap";
+				PRODUCT_MODULE_NAME = DRInputLimitManager;
+				PRODUCT_NAME = DRInputLimitManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35E928A1FF55CA69E16009FD83BEC5D1 /* Build configuration list for PBXNativeTarget "DRProgressMaskView" */ = {
+		0449DAB70D14C410929BD83B8FB7463F /* Build configuration list for PBXNativeTarget "DRProgressMaskView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15CDE0D6DFD4FE871AC8958C27A3610F /* Debug */,
-				6F1CC8DDBDA97B8A019B7506F3B9BF89 /* Release */,
+				EA9C3DF90F8151FBA8B554324C62759F /* Debug */,
+				B5CB9AAAFD1055049AC6BB9A5A3C5B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12CA5A578AEB1C0992934472EE7560E4 /* Build configuration list for PBXNativeTarget "DRCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94022FC572F523529907CFBE4DA5D458 /* Debug */,
+				6B8A03390FBC4029CA59DAB358DB118C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7392AAF3E97A966070C71CB6801CF7 /* Build configuration list for PBXAggregateTarget "DRMacroDefines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF513DC0DCD07ADF827DDB0D5EC90C0 /* Debug */,
+				D82AB4E56FE1F0427446947509F97D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -754,11 +2498,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DAFD242FEEC4FE22D2A22967BB2C633 /* Build configuration list for PBXNativeTarget "Pods-DRProgressMaskView_Example" */ = {
+		56467FE692D156972088603A9728CD41 /* Build configuration list for PBXNativeTarget "DRSandboxManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DF90BF2CA9BBE7CFDE6292F910AB4A8 /* Debug */,
-				94CF73E5E9F5B1FFD32E68B1AE53DE9A /* Release */,
+				4B07F48CD82DC673158C76300962326E /* Debug */,
+				29A27A228AAC4C5F34ED762F8F81A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472C21C69747B51C457496A4C82449C /* Build configuration list for PBXNativeTarget "DRInputLimitManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE680582DECC1D3E89D848D0C0185688 /* Debug */,
+				0D036AEB209E5EEB45CF4658A0A8C6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2B391A908ED4AF291033F65AF2ED81 /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E7301A9C0CA96B08FA23004D248588 /* Debug */,
+				7BAD395B198AA477ED212E388773AFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B932994F792A5A6F409EDCCE203C5D24 /* Build configuration list for PBXNativeTarget "BlocksKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A656589BFD30BDD6C97431EE08FE9C /* Debug */,
+				D7BC1B69C7488552D21324C71F1A76EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F03DE32E8B567B21F602F3CB6269F821 /* Build configuration list for PBXNativeTarget "Pods-DRProgressMaskView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDDDEC8E031417A79651FD01805976F /* Debug */,
+				483086C425B767B3321EF0E11535C305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

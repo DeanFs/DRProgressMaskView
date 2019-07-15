@@ -1,15 +1,56 @@
 PODS:
-  - DRProgressMaskView (0.1.0)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - DRCategories (0.1.0):
+    - DRInputLimitManager
+    - DRSandboxManager
+    - pop
+  - DRInputLimitManager (0.1.0):
+    - BlocksKit
+    - DRMacroDefines
+  - DRMacroDefines (0.1.2)
+  - DRProgressMaskView (0.1.0):
+    - DRCategories
+  - DRSandboxManager (0.1.0)
+  - pop (1.0.12)
 
 DEPENDENCIES:
   - DRProgressMaskView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BlocksKit
+    - DRCategories
+    - DRInputLimitManager
+    - DRMacroDefines
+    - DRSandboxManager
+    - pop
 
 EXTERNAL SOURCES:
   DRProgressMaskView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DRProgressMaskView: add2017eec573357f2fd9caa380b98adb4f707e9
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  DRCategories: 32040a6700fb426fda23fe381f8dae80fad78b10
+  DRInputLimitManager: eb8195c0494e964ff5c18b78bf4af2ed6488be0c
+  DRMacroDefines: 58aa271bc1c4170fa09f4f33dcad18fc4f21a57e
+  DRProgressMaskView: a6ae20a14b774451ab8949e87860ddd4956fdf63
+  DRSandboxManager: 2a48ca41b22edfc39dd2f66abd5a99e777410c61
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
 PODFILE CHECKSUM: 50371b390b2b224eae577ae163c0e67af2ae0ff1
 
