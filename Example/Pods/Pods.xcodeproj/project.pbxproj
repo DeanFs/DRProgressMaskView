@@ -1853,6 +1853,38 @@
 			};
 			name = Release;
 		};
+		0F47A4C600B753C1705E6EFD82D24BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE324D1A42F295146941C727DF31F44 /* DRProgressMaskView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRProgressMaskView/DRProgressMaskView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView.modulemap";
+				PRODUCT_MODULE_NAME = DRProgressMaskView;
+				PRODUCT_NAME = DRProgressMaskView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		29A27A228AAC4C5F34ED762F8F81A4FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E787C12734EA2FD8876646CEB8717661 /* DRSandboxManager.xcconfig */;
@@ -2075,6 +2107,37 @@
 			};
 			name = Debug;
 		};
+		78B034A7710CB6A434C902DD13B2D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE324D1A42F295146941C727DF31F44 /* DRProgressMaskView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRProgressMaskView/DRProgressMaskView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView.modulemap";
+				PRODUCT_MODULE_NAME = DRProgressMaskView;
+				PRODUCT_NAME = DRProgressMaskView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7BAD395B198AA477ED212E388773AFCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 305ED9D056E450405E040F0642DABC2B /* pop.xcconfig */;
@@ -2233,38 +2296,6 @@
 			};
 			name = Debug;
 		};
-		B5CB9AAAFD1055049AC6BB9A5A3C5B11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DE324D1A42F295146941C727DF31F44 /* DRProgressMaskView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DRProgressMaskView/DRProgressMaskView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView.modulemap";
-				PRODUCT_MODULE_NAME = DRProgressMaskView;
-				PRODUCT_NAME = DRProgressMaskView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D7BC1B69C7488552D21324C71F1A76EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E20A5A7870BB6856CEC962ED0E24DC70 /* BlocksKit.xcconfig */;
@@ -2332,37 +2363,6 @@
 				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
 				PRODUCT_MODULE_NAME = pop;
 				PRODUCT_NAME = pop;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EA9C3DF90F8151FBA8B554324C62759F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DE324D1A42F295146941C727DF31F44 /* DRProgressMaskView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DRProgressMaskView/DRProgressMaskView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DRProgressMaskView/DRProgressMaskView.modulemap";
-				PRODUCT_MODULE_NAME = DRProgressMaskView;
-				PRODUCT_NAME = DRProgressMaskView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2456,8 +2456,8 @@
 		0449DAB70D14C410929BD83B8FB7463F /* Build configuration list for PBXNativeTarget "DRProgressMaskView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA9C3DF90F8151FBA8B554324C62759F /* Debug */,
-				B5CB9AAAFD1055049AC6BB9A5A3C5B11 /* Release */,
+				78B034A7710CB6A434C902DD13B2D8CC /* Debug */,
+				0F47A4C600B753C1705E6EFD82D24BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

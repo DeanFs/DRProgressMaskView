@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DRProgressMaskView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '一个个性化进度条显示控件'
 
 # This description is used to generate tags and improve search results.
