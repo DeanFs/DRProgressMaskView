@@ -22,7 +22,7 @@ PODS:
     - BlocksKit
     - DRMacroDefines
   - DRMacroDefines (0.1.2)
-  - DRProgressMaskView (0.1.1):
+  - DRProgressMaskView (0.1.0):
     - DRCategories
   - DRSandboxManager (0.1.0)
   - pop (1.0.12)
@@ -48,10 +48,10 @@ SPEC CHECKSUMS:
   DRCategories: 32040a6700fb426fda23fe381f8dae80fad78b10
   DRInputLimitManager: eb8195c0494e964ff5c18b78bf4af2ed6488be0c
   DRMacroDefines: 58aa271bc1c4170fa09f4f33dcad18fc4f21a57e
-  DRProgressMaskView: 4ff6222e5971519713285ad9f7492aeba0f17300
+  DRProgressMaskView: b5055ddb3bde2b40e3b825ce10e6de74479ee6c4
   DRSandboxManager: 2a48ca41b22edfc39dd2f66abd5a99e777410c61
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
 PODFILE CHECKSUM: 50371b390b2b224eae577ae163c0e67af2ae0ff1
 
-COCOAPODS: 1.7.0.rc.1
+COCOAPODS: 1.6.1
